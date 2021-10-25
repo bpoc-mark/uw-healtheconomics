@@ -506,8 +506,8 @@ img[src$=".png"], img[src$=".jpg"] {
 
 @media (max-width: 899px) {
   .container {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -786,6 +786,89 @@ img[src$=".png"], img[src$=".jpg"] {
 .page_navigation > ul .current_page.current_page {
   background-color: #000;
   color: #fff;
+}
+
+/*==================================
+	JUMBO SECTION
+==================================*/
+.jumbo_sect .wrapper {
+  height: 270px;
+  background-image: url(../images/common/sp/jumbo_img.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect .wrapper {
+    height: 145px;
+  }
+}
+
+.jumbo_sect .wrapper .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.jumbo_sect .wrapper .container p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #106c86;
+  letter-spacing: .13em;
+  margin-bottom: 7px;
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect .wrapper .container p {
+    font-size: 12px;
+  }
+}
+
+.jumbo_sect .wrapper .container h3 {
+  font-family: "Noto Sans JP";
+  font-weight: 700;
+  font-size: 42px;
+  color: #00b3c8;
+  letter-spacing: .15em;
+}
+
+@media (max-width: 899px) {
+  .jumbo_sect .wrapper .container h3 {
+    font-size: 25px;
+  }
+}
+
+/*==================================
+	BREADCRUMBS SECTION
+==================================*/
+.breadcrumbs .wrapper {
+  padding-top: 22px;
+}
+
+.breadcrumbs .wrapper .container ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.breadcrumbs .wrapper .container ul li:not(:last-child)::after {
+  content: ">";
+  margin: 0 3px;
+}
+
+.breadcrumbs .wrapper .container ul li:last-child a {
+  color: #b1b1b1;
+}
+
+.breadcrumbs .wrapper .container ul li a {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: .15em;
+  color: #252525;
 }
 
 /*==========================================
@@ -1136,6 +1219,83 @@ img[src$=".png"], img[src$=".jpg"] {
   top: 50%;
   right: 30px;
   transform: translate(0, -50%);
+}
+
+/*==================================
+  Message
+==================================*/
+#Message main {
+  margin-top: 100px;
+}
+
+#Message main .sect_1 .wrapper {
+  padding-top: 55px;
+  padding-bottom: 180px;
+}
+
+#Message main .sect_1 .wrapper .container .row .col:first-child {
+  width: 48%;
+  padding-right: 70px;
+  padding-left: 50px;
+}
+
+#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col {
+  width: 100%;
+}
+
+#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col:first-child {
+  padding-right: 50px;
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+
+#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col:last-child {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col:last-child img:first-child {
+  width: 60%;
+}
+
+#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col:last-child img:last-child {
+  width: 38%;
+}
+
+#Message main .sect_1 .wrapper .container .row .col:last-child {
+  width: 52%;
+}
+
+#Message main .sect_1 .wrapper .container .row .col:last-child .p_content p {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
+  line-height: 40px;
+}
+
+#Message main .sect_1 .wrapper .container .row .col:last-child .p_content p:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+#Message main .sect_1 .wrapper .container .row .col:last-child h4 {
+  margin-top: 90px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: .15em;
+}
+
+#Message main .sect_1 .wrapper .container .row .col:last-child h4 img {
+  width: 156px;
+  margin-left: 15px;
+  position: relative;
+  top: 3px;
 }
 
 /*==================================

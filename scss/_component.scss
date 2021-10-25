@@ -29,8 +29,8 @@ img {
   padding-right: 50px;
   box-sizing: border-box;
   @include sp {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -287,6 +287,87 @@ img {
       &.current_page {
         background-color: #000;
         color: #fff;
+      }
+    }
+  }
+}
+
+
+/*==================================
+	JUMBO SECTION
+==================================*/
+.jumbo_sect{
+  .wrapper{
+    height: 270px;
+    background-image: url(../images/common/sp/jumbo_img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    @include sp{
+      height:145px;
+    }
+
+    .container{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      p{
+        @include Roboto(700);
+        font-size: 18px;
+        color: #106c86;
+        letter-spacing: .13em;
+        margin-bottom: 7px;
+
+        @include sp{
+          font-size: 12px
+        }
+      }
+      h3{
+        @include Noto_Sans(700);
+        font-size: 42px;
+        color: #00b3c8;
+        letter-spacing: .15em;
+
+        @include sp{
+          font-size: 25px
+        }
+      }
+    }
+  }
+}
+
+/*==================================
+	BREADCRUMBS SECTION
+==================================*/
+.breadcrumbs{
+  .wrapper{
+    padding-top: 22px;
+    .container{
+      ul{
+        display: flex;
+        justify-content: flex-end;
+        li{
+          &:not(:last-child){
+            &::after{
+              content: ">";
+              margin: 0 3px;
+            }
+          }
+          &:last-child{
+            a{
+              color: #b1b1b1;
+            }
+          }
+          a{
+            @include Noto_Sans(500);
+            font-size: 14px;
+            letter-spacing: .15em;
+            color: #252525;
+          }
+        }
       }
     }
   }
