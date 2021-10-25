@@ -1034,6 +1034,8 @@ img[src$=".png"], img[src$=".jpg"] {
   font-size: 14px;
   color: #252525;
   padding: 0;
+  text-indent: -24px;
+  margin-left: 24px;
 }
 
 #Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li p span {
@@ -1042,6 +1044,7 @@ img[src$=".png"], img[src$=".jpg"] {
   font-size: 16px;
   color: #15b4d1;
   padding: 0;
+  display: unset;
 }
 
 #Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li a {
@@ -1061,6 +1064,7 @@ img[src$=".png"], img[src$=".jpg"] {
   font-size: 18px;
   color: #fff;
   padding-left: 10px;
+  display: unset;
 }
 
 #Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li a img {
@@ -1189,6 +1193,159 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-left: 15px;
   position: relative;
   top: 3px;
+}
+
+/*==================================
+  Recruit
+==================================*/
+#Recruit main {
+  margin-top: 55px;
+}
+
+#Recruit main .sect_1 {
+  overflow: hidden;
+}
+
+#Recruit main .sect_1 .wrapper {
+  padding-bottom: 75px;
+}
+
+#Recruit main .sect_1 .wrapper .container .desc {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
+  line-height: 24px;
+  text-align: left;
+  padding-top: 55px;
+  padding-bottom: 60px;
+}
+
+#Recruit main .sect_1 .wrapper .row .col:first-child {
+  width: 100%;
+}
+
+#Recruit main .sect_1 .wrapper .row .col:first-child .list {
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#Recruit main .sect_1 .wrapper .row .col:first-child .list li:not(:last-child) {
+  border-bottom: 1px solid #e9e9e9;
+  margin-bottom: 15px;
+}
+
+#Recruit main .sect_1 .wrapper .row .col:first-child .list li .row {
+  justify-content: space-between;
+}
+
+#Recruit main .sect_1 .wrapper .row .col:first-child .list li .row .col {
+  padding: 0 0 16px 0;
+}
+
+#Recruit main .sect_1 .wrapper .row .col:first-child .list li .row .col:first-child {
+  width: 100%;
+  padding: 0;
+}
+
+#Recruit main .sect_1 .wrapper .row .col:first-child .list li .row .col:first-child p {
+  font-family: "Noto Sans JP";
+  font-weight: 700;
+  font-size: 16px;
+  color: #252525;
+}
+
+#Recruit main .sect_1 .wrapper .row .col:first-child .list li .row .col:last-child {
+  width: 100;
+}
+
+#Recruit main .sect_1 .wrapper .row .col:first-child .list li .row .col:last-child p {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
+  line-height: 20.5px;
+}
+
+#Recruit main .sect_1 .wrapper .row .col:last-child {
+  width: 100%;
+  padding-left: 50px;
+}
+
+#Recruit main .sect_2 .wrapper {
+  background-color: #f6fafb;
+  padding-bottom: 100px;
+  padding-top: 75px;
+}
+
+#Recruit main .sect_2 .wrapper .container h3 {
+  font-family: "Noto Sans JP";
+  font-weight: 700;
+  font-size: 23px;
+  color: #252525;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+#Recruit main .sect_2 .wrapper .container .row .col {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+#Recruit main .sect_2 .wrapper .container .row .col p {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 14px;
+  color: #252525;
+  padding: 0;
+  margin-bottom: 2px;
+  text-indent: -24px;
+  margin-left: 24px;
+}
+
+#Recruit main .sect_2 .wrapper .container .row .col p span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #2a94ed;
+  display: unset;
+}
+
+#Recruit main .sect_2 .wrapper .container .row .col a {
+  background-color: #2fc0c5;
+  width: 100%;
+  display: block;
+  padding: 13px 20px 12px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#Recruit main .sect_2 .wrapper .container .row .col a p {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  text-indent: unset;
+  margin-left: unset;
+}
+
+#Recruit main .sect_2 .wrapper .container .row .col a p span {
+  font-family: "Noto Sans JP";
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  display: unset;
+  padding-right: 10px;
+}
+
+#Recruit main .sect_2 .wrapper .container .row .col a img {
+  width: 22px;
+  transition: .3s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
 }
 
 /*==================================

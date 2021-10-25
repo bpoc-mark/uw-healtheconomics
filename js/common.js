@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Webfont読込
 window.WebFontConfig = {
   google: {
-    families: ['Barlow+Condensed:500','Roboto:400,500,600,700', 'Noto+Sans+JP:300,400,500,700,900&subset=japanese']
+    families: ['Barlow+Condensed:500','Roboto:400,500,600,700,900', 'Noto+Sans+JP:300,400,500,700,900&subset=japanese']
   },
   active: function () {
     sessionStorage.fonts = true;
