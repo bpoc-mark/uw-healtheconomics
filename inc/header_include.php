@@ -18,3 +18,4 @@ if ((strpos($ua, 'iPhone') !== false) || (strpos($ua, 'iPod') !== false) || (str
 <link href="/css/style.css" media="print" rel="stylesheet">
 <link href="/css/style.css" media="only screen and (min-width: 900px)" rel="stylesheet">
 <link href="/css/style_sp.css" media="only screen and (max-width: 899px)" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">

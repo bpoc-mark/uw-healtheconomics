@@ -25,6 +25,35 @@ $(function () {
 
 });
 
+$('#header_menu').click(function(){
+  $('.menu span').toggleClass('show');
+  $('.h_right').toggleClass('active')
+})
+
+$('#emp_info').click(function(e){
+  e.preventDefault();
+  if($(this).hasClass('active')){
+    $(this).removeClass('active');
+    $(this).find('.sub_menu').slideUp();
+  }
+  else{
+    $(this).addClass('active');
+    $(this).find('.sub_menu').slideDown();
+  }
+})
+
+// flag to allow clicking
+var clickAllowed = true;
+$(window).on('load resize', function () {
+  var w = $(window).width();
+  if (w < 900) {
+    clickAllowed = true;
+  }
+  else{
+    clickAllowed = false;
+    $('.sub_menu').removeAttr('style');
+  }
+})
 
 
 // シンプルローディング
