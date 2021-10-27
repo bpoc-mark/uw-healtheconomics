@@ -109,7 +109,7 @@
               span{
                 @include Roboto(700);
                 font-size: 16px;
-                color: #15b4d1;
+                color: #2a94ed;
                 letter-spacing: .13em;
                 display: block;
               }
@@ -208,7 +208,7 @@
               span{
                 @include Roboto(700);
                 font-size: 16px;
-                color: #15b4d1;
+                color: #2a94ed;
                 display: block;
                 letter-spacing: .13em
               }
@@ -241,7 +241,7 @@
                     span{
                       @include Roboto(700);
                       font-size: 20px;
-                      color: #15b4d1;
+                      color: #2a94ed;
                       display: unset;
                     }
                   }

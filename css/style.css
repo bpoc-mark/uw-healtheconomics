@@ -1019,7 +1019,7 @@ img[src$=".png"], img[src$=".jpg"] {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
-  color: #15b4d1;
+  color: #2a94ed;
   letter-spacing: .13em;
   display: block;
 }
@@ -1138,7 +1138,7 @@ img[src$=".png"], img[src$=".jpg"] {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
-  color: #15b4d1;
+  color: #2a94ed;
   display: block;
   letter-spacing: .13em;
 }
@@ -1185,7 +1185,7 @@ img[src$=".png"], img[src$=".jpg"] {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 20px;
-  color: #15b4d1;
+  color: #2a94ed;
   display: unset;
 }
 
