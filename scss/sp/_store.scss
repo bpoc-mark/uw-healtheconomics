@@ -1,0 +1,199 @@
+/*==================================
+  Store
+==================================*/
+#Store main {
+  margin-top: 55px;
+  background-color: #f6fafb;
+  .sect_1{
+    .wrapper{
+      padding-top: 60px;
+      padding-bottom: 25px;
+      .container{
+        .store_cont{
+          padding-bottom: 64px;
+          h3{
+            @include Noto_Sans(700);
+            font-size: 21px;
+            color: #fff;
+            letter-spacing: .12em;
+            background-color: #2fc0c5;
+            text-align: center;
+            padding: 7px 0 8px;
+            margin-bottom: 25px;
+          }
+          .row{
+            justify-content: space-between;
+            .col{
+              width: 100%;
+              margin-bottom: 11px;
+              .accordion{
+                padding: 15px 10px 15px;
+                background-color: #ffffff;
+                .accordion_head{
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  .accordion_header{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    width: calc(100% - 40px);
+                    @include Noto_Sans(700);
+                    font-size: 18px;
+                    color: #252525;
+                    img{
+                      width: 30px;
+                      margin-right: 10px;
+                    }
+                  }
+                  .accordion_btn{
+                    position: relative;
+                    display: block;
+                    width: 35px;
+                    height: 35px;
+                    background-color: #ececec;
+                    &.active{
+                      &::before{
+                        transform: translate(-50%, -50%) rotate(90deg);
+                        opacity: 0;
+                      }
+                      &::after{
+                        transform: translate(-50%, -50%) rotate(180deg);
+                      }
+                    }
+                    &::before{
+                      content: "";
+                      display: block;
+                      width: 18px;
+                      height: 2px;
+                      background-color: #000000;
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      transition: .3s ease-in-out;
+                    }
+                    &::after{
+                      content: "";
+                      display: block;
+                      width: 18px;
+                      height: 2px;
+                      background-color: #000000;
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transition: .3s ease-in-out;
+                      transform: translate(-50%, -50%) rotate(90deg);
+                    }
+                  }
+                }
+                .accordion_body{
+                  position: relative;
+                  padding-top: 20px;
+                  padding-bottom: 11px;
+                  display: none;
+                  .store_info{
+                    .row{
+                      &:not(:last-child){
+                        border-bottom: 1px solid #e7e7e7;
+                        padding-bottom: 12px;
+                        margin-bottom: 7px;
+                      }
+                      &.address{
+                        .col{
+                          &:last-child{
+                            display: flex;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            p{
+                              width: 100%;
+                            }
+                            a{
+                              margin-top: 5px;
+                            }
+                          }
+                        }
+                      }
+                      .col{
+                        margin-bottom: 0;
+                        &:first-child{
+                          width: 100%;
+                          padding-left: 5px;
+                          p{
+                            @include Noto_Sans(700);
+                            font-size: 14px;
+                            color: #252525;
+                          }
+                        }
+                        &:last-child{
+                          width: 100%;
+                          padding-left: 5px;
+                          p{
+                            @include Noto_Sans(400);
+                            font-size: 14px;
+                            color: #252525;
+
+                            .tel{
+                              @include Noto_Sans(400);
+                              font-size: 16px;
+                              color: #252525;
+                            }
+
+                            &.time{
+                              display: flex;
+                              justify-content: flex-start;
+                              align-items: flex-end;
+                              &:nth-of-type(1){
+                                margin-top: 5px;
+                              }
+                              &:not(:last-child){
+                                margin-bottom: 4px
+                              }
+                              span{
+                                @include Noto_Sans(500);
+                                font-size: 12px;
+                                color: #252525;
+                                text-align: center;
+                                background-color: #dcdcdc;
+                                width: 90px;
+                                display: block;
+                                padding: 0 0 2px;
+                                border-radius: 50px;
+                                margin-right: 10px;
+                                letter-spacing: -1px;
+                              }
+                            }
+                            &.access{
+                              text-indent: -17px;
+                              margin-left: 17px;
+                            }
+                          }
+                          .map{
+                            display: block;
+                            width: 65px;
+                            height: 25px;
+                            @include Roboto(700);
+                            font-size: 14px;
+                            color: #fff;
+                            background-color: #2fc0c5;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            img{
+                              width: 14px;
+                              margin-left: 5px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

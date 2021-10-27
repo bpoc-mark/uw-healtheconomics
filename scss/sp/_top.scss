@@ -77,11 +77,12 @@
       padding-top: 65px;
       padding-bottom: 60px;
       position: relative;
+      background-color: #f6fafb;
       &::after{
         content: "";
         display: block;
         position: absolute;
-        z-index: -1;
+        z-index: 0;
         bottom: 0;
         right: 0;
         width: 37.33%;
@@ -89,6 +90,8 @@
         background-color: #99dcd8;
       }
       .row{
+        position: relative;
+        z-index: 1;
         align-items: center;
         .col{
           width: 100%;
@@ -102,6 +105,7 @@
                 font-size: 12px;
                 color: #15b4d1;
                 display: block;
+                letter-spacing: .13em;
               }
               h3{
                 @include Noto_Sans(700);
@@ -174,6 +178,7 @@
                 color: #15b4d1;
                 padding: 0 15px;
                 display: block;
+                letter-spacing: .13em
               }
               h3{
                 @include Noto_Sans(700);

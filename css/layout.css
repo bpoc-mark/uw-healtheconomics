@@ -128,13 +128,13 @@ input,
 textarea,
 select {
   font-style: normal;
-  font-family: "Noto Sans JP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3",
+  font-family: YakuHanJP_Noto,  "Noto Sans JP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3",
     "メイリオ", Meiryo, Verdana, "ＭＳ Ｐゴシック", "MS P Gothic", san-serif;
 }
 body {
   color: #000;
   background-color: #ffffff;
-  font-family: "Noto Sans JP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3",
+  font-family: YakuHanJP_Noto,  "Noto Sans JP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3",
     "メイリオ", Meiryo, Verdana, "ＭＳ Ｐゴシック", "MS P Gothic", san-serif;
   line-height: 1;
   letter-spacing: 0.03em;

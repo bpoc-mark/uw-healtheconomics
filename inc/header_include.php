@@ -19,3 +19,5 @@ if ((strpos($ua, 'iPhone') !== false) || (strpos($ua, 'iPod') !== false) || (str
 <link href="/css/style.css" media="only screen and (min-width: 900px)" rel="stylesheet">
 <link href="/css/style_sp.css" media="only screen and (max-width: 899px)" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- HTML：CDNリンクを貼り付け -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.4.1/dist/css/yakuhanjp-noto.min.css">

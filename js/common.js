@@ -42,6 +42,17 @@ $('#emp_info').click(function(e){
   }
 })
 
+$(document).on('click', '.accordion_btn', function(e){
+  e.preventDefault();
+  if($(this).hasClass('active')){
+    $(this).removeClass('active');
+    $(this).parent().next('.accordion_body').slideUp();
+  }else{
+    $(this).addClass('active');
+    $(this).parent().next('.accordion_body').slideDown();
+  }
+})
+
 // flag to allow clicking
 var clickAllowed = true;
 $(window).on('load resize', function () {
@@ -52,6 +63,7 @@ $(window).on('load resize', function () {
   else{
     clickAllowed = false;
     $('.sub_menu').removeAttr('style');
+    $('.accordion_body').removeAttr('style');
   }
 })
 

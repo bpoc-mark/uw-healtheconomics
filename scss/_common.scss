@@ -62,35 +62,42 @@ main {
 /* header
 ==================================*/
 header {
-  position: relative;
-  bottom: -100px;
-  margin-top: -100px;
+  position: fixed;
+  top: 0;
   z-index: 999;
-  // background: #fff;
   width: 100%;
-  height: 100px;
   transition: .3s ease-in-out;
-  &.scroll{
-    position: fixed;
-    bottom: 0;
+  &.top_head{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
 
     .header_inner{
       .h_left{
         opacity: 0;
       }
+    }
+  }
+  &.scroll{
+    top: 0;
+    height: 100px;
+    .header_inner{
+      .h_left{
+        opacity: 1;
+      }
       .h_right{
         ul{
           li{
             .sub_menu{
-              bottom: 103px;
+              bottom: -287px;
               &::before{
                 content: "";
                 display: block;
                 position: absolute;
                 width: 100%;
                 height: 10px;
-                top: unset;
-                bottom: -10px;
+                top: -10px;
+                bottom: unset;
                 left: 0;
                 right: 0;
                 margin: 0 auto;
@@ -107,15 +114,17 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 100%;
+    height: 100px;
+    width: 100%;
     .h_left{
+      opacity: 1;
       width: 40%;
       height: 100%;
       display: flex;
       align-items: center;
       background-color: #fff;
       padding-left: 60px;
-
+      transition: .3s ease-in-out;
       @media screen and (max-width: 1280px) {
         width: 30%;
       }
@@ -173,6 +182,7 @@ header {
                 transform: scale(0);
               }
               &::after{
+                top: -9px;
                 transform: scale(1);
               }
             }
@@ -201,7 +211,7 @@ header {
               background-color: #fff;
               border-radius: 50px;
               position: absolute;
-              bottom: -9px;
+              top: 9px;
               left: 0;
               right: 0;
               margin: 0 auto;
@@ -217,7 +227,7 @@ header {
           .sub_menu{
             transition: .3s linear;
             position: absolute;
-            bottom: -288px;
+            bottom: 104px;
             left: -80px;
             margin: 0 auto;
             background-color: #fff;
@@ -237,7 +247,7 @@ header {
               position: absolute;
               width: 100%;
               height: 10px;
-              top: -10px;
+              bottom: -10px;
               left: 0;
               right: 0;
               margin: 0 auto;

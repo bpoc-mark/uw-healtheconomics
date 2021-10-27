@@ -4,8 +4,15 @@
 #Top main {
   .sect_1{
     .wrapper{
-      margin-top: 100px;
+      // margin-top: 100px;
       position: relative;
+      .logo{
+        position: absolute;
+        top: 30px;
+        left: 60px;
+        z-index: 1000;
+        width: 185px;
+      }
       .container{
         position: absolute;
         top: 0;
@@ -54,7 +61,6 @@
               position: absolute;
               top: -6px;
               left: 50%;
-              right: 50%;
               transform: translate(-50%, 0);
               margin: 0 auto;
               animation-name: scroll_move;
@@ -76,11 +82,12 @@
       padding-top: 100px;
       padding-bottom: 150px;
       position: relative;
+      background-color: #f6fafb;
       &::after{
         content: "";
         display: block;
         position: absolute;
-        z-index: -1;
+        z-index: 0;
         top: 0;
         right: 0;
         width: 38%;
@@ -88,6 +95,8 @@
         background-color: #99dcd8;
       }
       .row{
+        position: relative;
+        z-index: 1;
         align-items: center;
         .col{
           width: 50%;
@@ -95,12 +104,13 @@
             padding-right: 55px;
             padding-left: 50px;
             .txt_cont{
-              max-width: 545px;
+              max-width: 553px;
               margin-left: auto;
               span{
                 @include Roboto(700);
                 font-size: 16px;
                 color: #15b4d1;
+                letter-spacing: .13em;
                 display: block;
               }
               h3{
@@ -142,6 +152,9 @@
                       top: 50%;
                       right: 30px;
                       transform: translate(0, -50%);
+                      @media only screen and (max-width: 1180px) {
+                        right: 10px;
+                      }
                     }
                   }
                 }
@@ -197,6 +210,7 @@
                 font-size: 16px;
                 color: #15b4d1;
                 display: block;
+                letter-spacing: .13em
               }
               h3{
                 @include Noto_Sans(700);
@@ -268,6 +282,15 @@
                   border: 1px solid #cbcbcb;
                   margin-bottom: 9px;
                   position: relative;
+                  &:last-child{
+                    a{
+                      img{
+                        @media only screen and (max-width: 1250px) {
+                          right: 10px;
+                        }
+                      }
+                    }
+                  }
                   a{
                     width: 100%;
                     display: block;
@@ -277,6 +300,9 @@
                     @include Noto_Sans(500);
                     font-size: 16px;
                     color: #252525;
+                    @media only screen and (max-width: 1250px) {
+                      font-size: 14px;
+                    }
                     img{
                       width: 25px;
                       transition: .3s ease-in-out;

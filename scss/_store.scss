@@ -1,0 +1,194 @@
+/*==================================
+  Store
+==================================*/
+#Store main {
+  margin-top: 100px;
+  background-color: #f6fafb;
+  .sect_1{
+    .wrapper{
+      padding-top: 95px;
+      padding-bottom: 100px;
+      .container{
+        .store_cont{
+          padding-bottom: 60px;
+          h3{
+            @include Noto_Sans(700);
+            font-size: 26px;
+            color: #fff;
+            letter-spacing: .12em;
+            background-color: #2fc0c5;
+            text-align: center;
+            padding: 13px 0;
+            margin-bottom: 28px;
+          }
+          .row{
+            justify-content: space-between;
+            .col{
+              width: 49.17%;
+              margin-bottom: 20px;
+              .accordion{
+                padding: 30px 30px 55px;
+                background-color: #ffffff;
+                min-height: 493px;
+                .accordion_head{
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  .accordion_header{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    width: calc(100% - 40px);
+                    @include Noto_Sans(700);
+                    font-size: 24px;
+                    color: #252525;
+                    img{
+                      width: 39px;
+                      margin-right: 10px;
+                    }
+                  }
+                  .accordion_btn{
+                    position: relative;
+                    display: block;
+                    width: 35px;
+                    height: 35px;
+                    background-color: #ececec;
+                    &.active{
+                      &::before{
+                        transform: translate(-50%, -50%) rotate(90deg);
+                        opacity: 0;
+                      }
+                      &::after{
+                        transform: translate(-50%, -50%) rotate(180deg);
+                      }
+                    }
+                    &::before{
+                      content: "";
+                      display: block;
+                      width: 18px;
+                      height: 2px;
+                      background-color: #000000;
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      transition: .3s ease-in-out;
+                    }
+                    &::after{
+                      content: "";
+                      display: block;
+                      width: 18px;
+                      height: 2px;
+                      background-color: #000000;
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transition: .3s ease-in-out;
+                      transform: translate(-50%, -50%) rotate(90deg);
+                    }
+                  }
+                }
+                .accordion_body{
+                  position: relative;
+                  padding-top: 25px;
+                  .store_info{
+                    .row{
+                      &:not(:last-child){
+                        border-bottom: 1px solid #e7e7e7;
+                        padding-bottom: 12px;
+                        margin-bottom: 10px;
+                      }
+                      &.address{
+                        .col{
+                          &:last-child{
+                            display: flex;
+                            justify-content: space-between;
+                            p{
+                              width: calc(100% - 70px);
+                            }
+                          }
+                        }
+                      }
+                      .col{
+                        margin-bottom: 0;
+                        &:first-child{
+                          width: 100px;
+                          padding-left: 10px;
+                          p{
+                            @include Noto_Sans(700);
+                            font-size: 16px;
+                            color: #252525;
+                          }
+                        }
+                        &:last-child{
+                          width: calc(100% - 100px);
+                          p{
+                            @include Noto_Sans(500);
+                            font-size: 16px;
+                            color: #252525;
+
+                            .tel{
+                              @include Noto_Sans(500);
+                              font-size: 16px;
+                              color: #252525;
+                            }
+
+                            &.time{
+                              display: flex;
+                              justify-content: flex-start;
+                              align-items: flex-end;
+                              span{
+                                @include Noto_Sans(500);
+                                font-size: 12px;
+                                color: #252525;
+                                text-align: center;
+                                background-color: #dcdcdc;
+                                width: 90px;
+                                display: block;
+                                padding: 0 0 2px;
+                                border-radius: 50px;
+                                margin-right: 10px;
+                              }
+                            }
+                            &.access{
+                              text-indent: -17px;
+                              margin-left: 17px;
+                            }
+                          }
+                          .map{
+                            display: block;
+                            width: 65px;
+                            height: 25px;
+                            @include Roboto(700);
+                            font-size: 14px;
+                            color: #fff;
+                            background-color: #2fc0c5;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            &:hover{
+                              img{
+                                right: -5px;
+                              }
+                            }
+                            img{
+                              width: 14px;
+                              margin-left: 5px;
+                              transition: .3s ease-in-out;
+                              position: relative;
+                              right: 0;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

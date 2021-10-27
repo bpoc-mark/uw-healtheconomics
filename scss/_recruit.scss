@@ -44,6 +44,8 @@
                     &:first-child{
                       width: 115px;
                       padding-right: 0;
+                      display: flex;
+                      align-items: center;
                     }
                     &:last-child{
                       width: calc(100% - 145px);

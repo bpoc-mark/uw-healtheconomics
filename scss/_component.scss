@@ -319,10 +319,11 @@ img {
         font-size: 18px;
         color: #106c86;
         letter-spacing: .13em;
-        margin-bottom: 7px;
+        margin-bottom: 18px;
 
         @include sp{
-          font-size: 12px
+          font-size: 12px;
+          margin-bottom: 6px;
         }
       }
       h3{
@@ -353,7 +354,7 @@ img {
           &:not(:last-child){
             &::after{
               content: ">";
-              margin: 0 3px;
+              margin: 0 7px 0 2px;
             }
           }
           &:last-child{
