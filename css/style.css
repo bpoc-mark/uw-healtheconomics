@@ -1893,6 +1893,169 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Interview
+==================================*/
+#Interview main {
+  margin-top: 100px;
+}
+
+#Interview main .sect_1 .wrapper {
+  padding-top: 95px;
+}
+
+#Interview main .sect_1 .wrapper .row {
+  align-items: center;
+}
+
+#Interview main .sect_1 .wrapper .row .col {
+  width: 50%;
+}
+
+#Interview main .sect_1 .wrapper .row .col:first-child {
+  padding-left: 50px;
+}
+
+#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont {
+  max-width: 540px;
+  margin-left: auto;
+}
+
+#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont p {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 43.2px;
+  color: #252525;
+  margin-bottom: 55px;
+}
+
+#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont .num {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #2a94ed;
+  letter-spacing: .13em;
+}
+
+#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont h3 {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 700;
+  font-size: 32px;
+  color: #252525;
+  margin-top: 6px;
+}
+
+#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont h3 span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #adadad;
+  letter-spacing: .13em;
+  margin-left: 20px;
+}
+
+#Interview main .sect_1 .wrapper .row .col:last-child {
+  padding-left: 30px;
+}
+
+#Interview main .sect_2 .wrapper {
+  padding-bottom: 174px;
+}
+
+#Interview main .sect_2 .wrapper .container .txt_cont {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 110px;
+}
+
+#Interview main .sect_2 .wrapper .container .txt_cont .list:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+#Interview main .sect_2 .wrapper .container .txt_cont .list h3 {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 700;
+  font-size: 24px;
+  color: #00b3c8;
+  line-height: 43.2px;
+  padding-left: 65px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#Interview main .sect_2 .wrapper .container .txt_cont .list h3::before {
+  content: "";
+  display: block;
+  width: 43px;
+  height: 2px;
+  background-color: #00b3c8;
+  position: absolute;
+  top: .9em;
+  left: 0;
+}
+
+#Interview main .sect_2 .wrapper .container .txt_cont .list p {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
+  line-height: 28.8px;
+}
+
+#Interview main .sect_2 .wrapper .container .row {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-top: 115px;
+}
+
+#Interview main .sect_2 .wrapper .container .row.row_reverse {
+  flex-direction: row-reverse;
+}
+
+#Interview main .sect_2 .wrapper .container .row.row_reverse .col:first-child {
+  padding-right: 0;
+  padding-left: 40px;
+}
+
+#Interview main .sect_2 .wrapper .container .row .col {
+  width: 50%;
+}
+
+#Interview main .sect_2 .wrapper .container .row .col:first-child {
+  padding-right: 40px;
+}
+
+#Interview main .sect_2 .wrapper .container .row .col:last-child h3 {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 700;
+  font-size: 24px;
+  color: #00b3c8;
+  line-height: 43.2px;
+  padding-left: 65px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#Interview main .sect_2 .wrapper .container .row .col:last-child h3::before {
+  content: "";
+  display: block;
+  width: 43px;
+  height: 2px;
+  background-color: #00b3c8;
+  position: absolute;
+  top: .9em;
+  left: 0;
+}
+
+#Interview main .sect_2 .wrapper .container .row .col:last-child p {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
+  line-height: 28.8px;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
