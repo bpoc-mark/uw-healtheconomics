@@ -18,7 +18,7 @@ $str = explode('/', $url); ?>
 			<li><a href="/" <?php if ($str[1] == "") {
 				echo ' class="here"';
 			} ?>>HOME</a></li>
-			<li><a href="/" <?php if ($str[1] == "") {
+			<li><a href="/about/" <?php if ($str[1] == "about") {
 				echo ' class="here"';
 			} ?>>ハロー薬局について</a></li>
 			<li><a href="/store/" <?php if ($str[1] == "store") {

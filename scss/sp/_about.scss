@@ -1,0 +1,116 @@
+/*==================================
+  About
+==================================*/
+#About main {
+  margin-top: 55px;
+
+  .sect_1{
+    .wrapper{
+      background-color: #f6fafb;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      position: relative;
+      &::after{
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 0;
+        bottom: 0;
+        right: 0;
+        width: 38%;
+        height: 30%;
+        background-color: #99dcd8;
+      }
+      .row{
+        position: relative;
+        z-index: 1;
+        align-items: center;
+        .col{
+          width: 100%;
+          &:first-child{
+            padding-left: 15px;
+            padding-right: 15px;
+            .txt_cont{
+              span{
+                @include Roboto(700);
+                font-size: 12px;
+                color: #2a94ed;
+                display: block;
+                letter-spacing: .13em
+              }
+              h3{
+                @include Noto_Sans(700);
+                font-size: 21px;
+                color: #252525;
+                line-height: 31.5px;
+                padding: 5px 0 40px;
+              }
+              p{
+                @include Noto_Sans(500);
+                font-size: 16px;
+                color: #252525;
+                line-height: 24px;
+              }
+            }
+          }
+          &:last-child{
+            padding-left: 50px;
+            padding-top: 70px;
+          }
+        }
+      }
+    }
+  }
+  
+  .sect_2{
+    .wrapper{
+      padding-top: 75px;
+      padding-bottom: 29px;
+      .container{
+        .list{
+          padding-bottom: 71px;
+          .l_head{
+            @include Noto_Sans(700);
+            font-size: 21px;
+            color: #fff;
+            background-color: #31c1c6;
+            text-align: center;
+            padding: 7px 0 8px;
+            letter-spacing: .12em;
+            margin-bottom: 23px;
+          }
+          .l_desc{
+            @include Noto_Sans(700);
+            font-size: 18px;
+            color: #252525;
+            text-align: left;
+            line-height: 24px;
+            letter-spacing: .08em;
+            margin-bottom: 35px;
+          }
+          .row{
+            .col{
+              width: 100%;
+              h4{
+                @include Noto_Sans(700);
+                font-size: 18px;
+                color: #00b3c8;
+                margin-bottom: 15px;
+                line-height: 24px;
+              }
+              p{
+                @include Noto_Sans(500);
+                font-size: 16px;
+                color: #252525;
+                line-height: 24px;
+              }
+              &:first-child{
+                margin-bottom: 32px;
+              } 
+            }
+          }
+        }
+      }
+    }
+  }
+}

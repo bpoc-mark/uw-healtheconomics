@@ -1720,6 +1720,179 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  About
+==================================*/
+#About main {
+  margin-top: 100px;
+}
+
+#About main .breadcrumbs .wrapper {
+  background-color: #f6fafb;
+  position: relative;
+}
+
+#About main .breadcrumbs .wrapper::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  width: 38%;
+  height: 100%;
+  background-color: #99dcd8;
+}
+
+#About main .breadcrumbs .wrapper .container {
+  position: relative;
+  z-index: 1;
+}
+
+#About main .breadcrumbs .wrapper .container ul li:last-child a {
+  color: #252525;
+}
+
+#About main .sect_1 .wrapper {
+  background-color: #f6fafb;
+  padding-top: 55px;
+  padding-bottom: 140px;
+  position: relative;
+}
+
+#About main .sect_1 .wrapper::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  width: 38%;
+  height: 100%;
+  background-color: #99dcd8;
+}
+
+#About main .sect_1 .wrapper .row {
+  position: relative;
+  z-index: 1;
+  align-items: center;
+}
+
+#About main .sect_1 .wrapper .row .col {
+  width: 50%;
+}
+
+#About main .sect_1 .wrapper .row .col:first-child {
+  padding-left: 50px;
+  padding-right: 40px;
+}
+
+#About main .sect_1 .wrapper .row .col:first-child .txt_cont {
+  max-width: 552px;
+  margin-left: auto;
+}
+
+#About main .sect_1 .wrapper .row .col:first-child .txt_cont span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #2a94ed;
+  letter-spacing: .13em;
+  display: block;
+}
+
+#About main .sect_1 .wrapper .row .col:first-child .txt_cont h3 {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 700;
+  font-size: 28px;
+  color: #252525;
+  line-height: 42px;
+  padding: 5px 0 65px;
+}
+
+#About main .sect_1 .wrapper .row .col:first-child .txt_cont p {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
+  line-height: 28.8px;
+}
+
+#About main .sect_1 .wrapper .row .col:last-child {
+  padding-left: 60px;
+}
+
+#About main .sect_2 .wrapper {
+  padding-top: 120px;
+  padding-bottom: 65px;
+}
+
+#About main .sect_2 .wrapper .container .list {
+  padding-bottom: 115px;
+}
+
+#About main .sect_2 .wrapper .container .list:last-child .row .col:first-child {
+  padding-right: 0;
+  border-right: none;
+}
+
+#About main .sect_2 .wrapper .container .list:last-child .row .col:last-child {
+  padding-left: 100px;
+}
+
+#About main .sect_2 .wrapper .container .list .l_head {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 700;
+  font-size: 26px;
+  color: #fff;
+  background-color: #31c1c6;
+  text-align: center;
+  padding: 12px 0 14px;
+  letter-spacing: .12em;
+  margin-bottom: 45px;
+}
+
+#About main .sect_2 .wrapper .container .list .l_desc {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 700;
+  font-size: 24px;
+  color: #252525;
+  text-align: center;
+  letter-spacing: .08em;
+  margin-bottom: 60px;
+}
+
+#About main .sect_2 .wrapper .container .list .row .col {
+  width: 50%;
+}
+
+#About main .sect_2 .wrapper .container .list .row .col h4 {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 700;
+  font-size: 24px;
+  color: #00b3c8;
+  margin-bottom: 32px;
+}
+
+#About main .sect_2 .wrapper .container .list .row .col p {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
+  line-height: 24px;
+}
+
+#About main .sect_2 .wrapper .container .list .row .col:first-child {
+  padding-left: 60px;
+  padding-right: 50px;
+  border-right: 1px solid #e9e9e9;
+}
+
+#About main .sect_2 .wrapper .container .list .row .col:last-child {
+  padding-left: 40px;
+  padding-right: 60px;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
