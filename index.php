@@ -181,6 +181,30 @@ $str = explode('/', $url); ?>
 		</footer>
 	</div><!-- //AllBox -->
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
+
+	<script>
+		let vp_height = $(window).height() * 0.7;
+
+		$(window).on("load scroll", function () {
+			let t = $(this).scrollTop();
+			// var distance = $('.header_inner').offset().top,
+    		// $window = $(window);
+			let dec_val = t / vp_height;
+			let percent = dec_val * 100;
+			let navheight = 100 - percent;
+			console.log(navheight)
+			$('.top_head').css('height', navheight + "%")
+			// if ( $window.scrollTop() >= distance ) {
+			// 	// Your div has reached the top
+			// 	// alert('reached the top');
+			// 	$('.top_head').css('height', "100px")
+			// }
+			if(navheight < 12){
+				$('.top_head').css('height', "100px");
+				$('header').addClass('scroll');
+			}
+		});
+	</script>
 </body>
 
 </html>

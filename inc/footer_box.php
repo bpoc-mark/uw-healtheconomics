@@ -7,7 +7,7 @@
 				<li><a href="/">HOME</a></li>
 				<li><a href="/about/">ハロー薬局について</a></li>
 				<li><a href="/store/">店舗一覧</a></li>
-				<li><a href="/">会社概要</a></li>
+				<li><a href="/overview/">会社概要</a></li>
 				<li><a href="/message/">メッセージ</a></li>
 			</ul>
 		</nav>
@@ -20,9 +20,9 @@
 			<ul>
 				<li><a href="/">インタビュー 01.曾根 庸介</a></li>
 				<li><a href="/">インタビュー 02.加藤 茉莉恵</a></li>
-				<li><a href="/">インタビュー 03.鈴木 康成</a></li>
-				<li><a href="/">募集要項</a></li>
-				<li><a href="/">採用エントリーフォーム</a></li>
+				<li><a href="/interview03/">インタビュー 03.鈴木 康成</a></li>
+				<li><a href="/recruit/">募集要項</a></li>
+				<li><a href="/contact/">採用エントリーフォーム</a></li>
 			</ul>
 		</nav>
 		

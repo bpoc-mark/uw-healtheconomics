@@ -2056,6 +2056,263 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Overview
+==================================*/
+#Overview main {
+  margin-top: 100px;
+}
+
+#Overview main .sect_1 {
+  overflow: hidden;
+}
+
+#Overview main .sect_1 .wrapper {
+  padding-bottom: 120px;
+  padding-top: 90px;
+}
+
+#Overview main .sect_1 .wrapper .row .col:first-child {
+  width: 56%;
+  padding-right: 80px;
+  padding-left: 50px;
+}
+
+#Overview main .sect_1 .wrapper .row .col:first-child .list {
+  max-width: 670px;
+  margin-left: auto;
+}
+
+#Overview main .sect_1 .wrapper .row .col:first-child .list li:not(:last-child) {
+  margin-bottom: 17px;
+}
+
+#Overview main .sect_1 .wrapper .row .col:first-child .list li:not(:last-child) .row .col {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+#Overview main .sect_1 .wrapper .row .col:first-child .list li .row {
+  justify-content: space-between;
+}
+
+#Overview main .sect_1 .wrapper .row .col:first-child .list li .row .col {
+  padding: 0 0 16px 22px;
+}
+
+#Overview main .sect_1 .wrapper .row .col:first-child .list li .row .col:first-child {
+  width: 115px;
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+}
+
+#Overview main .sect_1 .wrapper .row .col:first-child .list li .row .col:last-child {
+  width: calc(100% - 145px);
+}
+
+#Overview main .sect_1 .wrapper .row .col:first-child .list li .row .col p {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
+  line-height: 20.8px;
+}
+
+#Overview main .sect_1 .wrapper .row .col:last-child {
+  width: 44%;
+}
+
+#Overview main .sect_1 .wrapper .row .col:last-child .img_cont.row .col {
+  width: 100%;
+}
+
+#Overview main .sect_1 .wrapper .row .col:last-child .img_cont.row .col:first-child {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#Overview main .sect_1 .wrapper .row .col:last-child .img_cont.row .col:last-child {
+  padding-left: 90px;
+}
+
+#Overview main .sect_1 .wrapper .row .col:last-child .img_cont.row .col:last-child.row {
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+#Overview main .sect_1 .wrapper .row .col:last-child .img_cont.row .col:last-child.row .col {
+  width: 49%;
+}
+
+#Overview main .sect_1 .wrapper .row .col:last-child .img_cont.row .col:last-child.row .col:last-child {
+  padding-left: 0;
+}
+
+#Overview main .sect_2 .wrapper {
+  background-color: #f6fafb;
+  padding-top: 120px;
+  padding-bottom: 180px;
+}
+
+#Overview main .sect_2 .wrapper .container h3 {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 700;
+  font-size: 36px;
+  color: #252525;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul {
+  position: relative;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li .pc {
+  width: 50%;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li .info {
+  width: 50%;
+  padding-left: 25px;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li .row {
+  flex-wrap: nowrap;
+  border-bottom: 1px solid #e9e9e9;
+  padding-bottom: 5px;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li .row .col:first-child {
+  width: 125px;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li .row .col:last-child {
+  width: unset;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li .row .col p {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 700;
+  font-size: 16px;
+  color: #252525;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(odd) {
+  margin-left: auto;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(odd) .row {
+  position: relative;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(odd) .row::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background-color: #e9e9e9;
+  position: absolute;
+  bottom: 8px;
+  left: -26.5px;
+  transform: rotate(35deg);
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(odd) .row::after {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 15px;
+  left: -29.5px;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(odd) .row .col:last-child p span {
+  margin-left: 35px;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(even) .info {
+  padding-left: 0;
+  padding-right: 25px;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(even) .row {
+  padding-left: 0;
+  padding-right: 0;
+  justify-content: flex-end;
+  position: relative;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(even) .row::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background-color: #e9e9e9;
+  position: absolute;
+  bottom: 8px;
+  right: -26.5px;
+  transform: rotate(-35deg);
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(even) .row::after {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 15px;
+  right: -29.5px;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(even) .row .col:last-child {
+  padding-right: 10px;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(even) .row .col:last-child p span {
+  margin-left: 35px;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(6) .row .col:last-child p span, #Overview main .sect_2 .wrapper .container .history ul li:nth-child(5) .row .col:last-child p span, #Overview main .sect_2 .wrapper .container .history ul li:nth-child(7) .row .col:last-child p span, #Overview main .sect_2 .wrapper .container .history ul li:nth-child(9) .row .col:last-child p span {
+  margin-left: 18px;
+}
+
+#Overview main .sect_2 .wrapper .container .history ul img {
+  width: 13px;
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+}
+
+@media only screen and (max-width: 919px) {
+  #Overview main .sect_2 .wrapper .container .history ul img {
+    top: 10px;
+  }
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
@@ -2179,7 +2436,7 @@ main#Contact input[type="search"]:focus,
 main#Contact input[type="url"]:focus,
 main#Contact textarea:focus {
   color: #000;
-  background-color: #dddddd;
+  background-color: #f5f5f5;
 }
 
 main#Contact .ERR {
@@ -2187,15 +2444,24 @@ main#Contact .ERR {
 }
 
 main#Contact input[type="text"] {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
   font-size: 16px;
+  color: #252525;
   line-height: 1.625;
   letter-spacing: 0.03em;
-  padding: 12px 21px;
-  border: 1px solid #dddddd;
-  background: #dddddd;
+  padding: 16px 20px;
+  border: 1px solid transparent;
+  background: #f5f5f5;
   box-sizing: border-box;
-  color: #000;
+  color: #252525;
   width: 100%;
+}
+
+@media (max-width: 899px) {
+  main#Contact input[type="text"] {
+    padding: 10px 20px;
+  }
 }
 
 main#Contact input[type="text"].zip {
@@ -2204,7 +2470,6 @@ main#Contact input[type="text"].zip {
 }
 
 main#Contact .zip-wrap {
-  background: #dddddd;
   display: inline-block;
   position: relative;
   max-width: 247px;
@@ -2214,36 +2479,49 @@ main#Contact .zip-wrap {
 
 main#Contact .zip-wrap::before {
   content: "〒";
-  font-size: 18px;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
   position: absolute;
-  top: 0.8em;
-  left: 24px;
+  top: 1.2em;
+  left: 0;
   margin: auto;
 }
 
 main#Contact .zip-wrap input {
-  padding: 12px 21px 12px 55px;
+  padding: 10px 20px;
   width: 100%;
+  margin-left: 23px;
 }
 
 main#Contact input[type="button"] {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.625;
+  color: #252525;
   letter-spacing: 0.03em;
   font-weight: 500;
-  color: #000;
+  color: #252525;
   max-width: 140px;
   width: 100%;
-  background: #dddddd;
-  border: 3px solid #dddddd;
+  background: #fff;
+  border: 1px solid #cbcbcb;
   padding: 10px 19px;
   box-sizing: border-box;
   transition: all 0.3s ease;
   cursor: pointer;
+  margin-left: 29px;
 }
 
 main#Contact input[type="button"]:hover {
-  background: none;
+  background: #f5f5f5;
+}
+
+@media (max-width: 899px) {
+  main#Contact input[type="button"] {
+    padding: 10px 0;
+  }
 }
 
 main#Contact input[type="checkbox"] + label {
@@ -2261,16 +2539,16 @@ main#Contact input[type="checkbox"] + label::before {
   left: 0;
   width: 22px;
   height: 22px;
-  border: 1px solid #dddddd;
-  background: #dddddd;
+  border: 1px solid #2c2c2c;
+  background: #ffffff;
   box-sizing: border-box;
 }
 
 main#Contact input[type="checkbox"] + label::after {
   content: "";
   opacity: 0;
-  border-right: 3px solid #000;
-  border-bottom: 3px solid #000;
+  border-right: 3px solid #00b3c8;
+  border-bottom: 3px solid #00b3c8;
   display: block;
   height: 9px;
   left: 7px;
@@ -2284,6 +2562,10 @@ main#Contact input[type="checkbox"] + label::after {
 
 main#Contact input[type="checkbox"]:checked + label {
   background: none;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
 }
 
 main#Contact input[type="checkbox"]:checked + label::after {
@@ -2301,12 +2583,12 @@ main#Contact input[type="radio"] + label::before {
   content: "";
   display: block;
   position: absolute;
-  top: 0;
+  top: 4px;
   left: 0;
   width: 17px;
   height: 17px;
-  border: 1px solid #dddddd;
-  background: #dddddd;
+  border: 1px solid #e2e2e2;
+  background: #f5f5f5;
   box-sizing: border-box;
   border-radius: 50%;
 }
@@ -2315,11 +2597,11 @@ main#Contact input[type="radio"] + label::after {
   content: "";
   display: block;
   position: absolute;
-  top: 4px;
+  top: 8px;
   left: 4px;
   width: 9px;
   height: 9px;
-  background: #000;
+  background: #00b3c8;
   border-radius: 50%;
   opacity: 0;
 }
@@ -2338,12 +2620,12 @@ main#Contact .select-box {
   text-align: center;
   position: relative;
   border-radius: 2px;
-  background: #dddddd;
+  background: #f5f5f5;
 }
 
 main#Contact .select-box select {
   font-size: 16px;
-  color: #000;
+  color: #252525;
   letter-spacing: 0.035em;
   width: 100%;
   padding-right: 1em;
@@ -2356,7 +2638,7 @@ main#Contact .select-box select {
   background-image: none;
   box-shadow: none;
   appearance: none;
-  padding: 12px 38px 12px 21px;
+  padding: 18.5px 20px;
 }
 
 main#Contact .select-box select::-ms-expand {
@@ -2378,22 +2660,75 @@ main#Contact .select-box::before {
 }
 
 main#Contact textarea {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
   font-size: 16px;
+  color: #252525;
   line-height: 1.625;
   letter-spacing: 0.03em;
-  border: 1px solid #dddddd;
-  background: #dddddd;
+  border: 1px solid transparent;
+  background: #f5f5f5;
   box-sizing: border-box;
   width: 100%;
   padding: 12px 21px;
-  min-height: 174px;
+  min-height: 300px;
+}
+
+@media (max-width: 899px) {
+  main#Contact textarea {
+    min-height: 175px;
+  }
 }
 
 main#Contact .overscroll {
+  margin-top: 56px;
   overflow-y: scroll;
-  height: 237px;
-  padding: 25px 21px;
-  background: #dddddd;
+  height: 330px;
+  padding: 40px 50px;
+  background: #fff;
+  border: 1px solid #e9e9e9;
+}
+
+@media (max-width: 899px) {
+  main#Contact .overscroll {
+    margin-top: 27.5px;
+    padding: 20px 12.5px;
+    height: 200px;
+  }
+}
+
+main#Contact .overscroll h3 {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 18px;
+  color: #252525;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 899px) {
+  main#Contact .overscroll h3 {
+    font-size: 16px;
+  }
+}
+
+main#Contact .overscroll p {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 14px;
+  color: #252525;
+  text-align: left;
+  line-height: 21px;
+}
+
+@media (max-width: 899px) {
+  main#Contact .overscroll p {
+    font-size: 12px !important;
+  }
+}
+
+main#Contact .overscroll ul {
+  margin-top: 20px;
 }
 
 main#Contact .overscroll ul > li {
@@ -2401,18 +2736,37 @@ main#Contact .overscroll ul > li {
 }
 
 main#Contact .overscroll ul > li strong {
-  font-size: 16px;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 14px;
+  color: #252525;
   line-height: 1.25;
   font-weight: 500;
   letter-spacing: 0.03em;
   display: block;
-  margin-bottom: 5px;
-  color: #000;
+  margin-bottom: 0;
+  color: #252525;
+}
+
+@media (max-width: 899px) {
+  main#Contact .overscroll ul > li strong {
+    font-size: 12px !important;
+  }
 }
 
 main#Contact .overscroll ul > li p {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.42;
+  color: #252525;
+  text-align: left;
+  line-height: 21px;
+}
+
+@media (max-width: 899px) {
+  main#Contact .overscroll ul > li p {
+    font-size: 12px !important;
+  }
 }
 
 main#Contact .overscroll ul > li > ol {
@@ -2424,10 +2778,6 @@ main#Contact .overscroll ul > li > ol li {
   padding-left: 1.25em;
 }
 
-main#Contact .overscroll ul > li:first-child strong {
-  margin-bottom: 20px;
-}
-
 main#Contact .overscroll ul > li:last-child {
   margin-bottom: 0;
 }
@@ -2437,40 +2787,54 @@ main#Contact .submit_area {
   text-align: center;
 }
 
+@media (max-width: 899px) {
+  main#Contact .submit_area {
+    margin-top: 60px;
+  }
+}
+
 main#Contact .submit_area span {
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.13em;
-  color: #000;
-  width: 262px;
-  background: #dddddd;
+  color: #252525;
+  max-width: 530px;
+  background: #fff;
   box-sizing: border-box;
   font-feature-settings: "palt";
   position: relative;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   text-align: center;
   box-sizing: border-box;
-  border: 3px solid #dddddd;
+  border: 1px solid #cbcbcb;
   transition: all 0.3s ease;
 }
 
 main#Contact .submit_area span input[type="submit"] {
-  font-size: 18px;
-  line-height: 1.4;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
   letter-spacing: 0.13em;
-  color: #000;
   cursor: pointer;
   width: 100%;
-  height: 58px;
+  height: 70px;
   box-sizing: border-box;
 }
 
+@media (max-width: 899px) {
+  main#Contact .submit_area span input[type="submit"] {
+    height: 55px;
+  }
+}
+
 main#Contact .submit_area span:hover {
-  background: none;
+  background: #f5f5f5;
 }
 
 main#Contact .submit_area span:hover input[type="submit"] {
-  color: #000;
+  color: #252525;
 }
 
 main#Contact .submit_area ul.koumoku {
@@ -2478,28 +2842,47 @@ main#Contact .submit_area ul.koumoku {
   margin: 20px auto 0;
 }
 
+@media (max-width: 899px) {
+  main#Contact .submit_area ul.koumoku {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 main#Contact .submit_area ul.koumoku li {
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.13em;
-  color: #000;
+  color: #252525;
   width: 262px;
-  background: #5f4b08;
+  background: #00a3b5;
   box-sizing: border-box;
   font-feature-settings: "palt";
   position: relative;
   display: inline-block;
   text-align: center;
   box-sizing: border-box;
-  border: 3px solid #5f4b08;
+  border: 1px solid #cbcbcb;
   transition: all 0.3s ease;
 }
 
+@media (max-width: 899px) {
+  main#Contact .submit_area ul.koumoku li {
+    width: 100%;
+  }
+  main#Contact .submit_area ul.koumoku li:first-child {
+    order: 2;
+    margin-top: 25px;
+  }
+}
+
 main#Contact .submit_area ul.koumoku li input[type="submit"] {
-  font-size: 18px;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
   line-height: 1.4;
   letter-spacing: 0.13em;
-  color: #000;
   cursor: pointer;
   width: 100%;
   height: 58px;
@@ -2511,32 +2894,41 @@ main#Contact .submit_area ul.koumoku li:hover {
 }
 
 main#Contact .submit_area ul.koumoku li:hover input[type="submit"] {
-  color: #000;
+  color: #252525;
 }
 
 main#Contact .submit_area ul.koumoku li:hover svg path {
-  fill: #000;
+  fill: #252525;
 }
 
 main#Contact .btn_back {
-  margin-top: 25px;
   text-align: center;
+  background-color: transparent !important;
+}
+
+main#Contact .btn_back:hover {
+  background-color: #00a3b5 !important;
+}
+
+main#Contact .btn_back:hover input[type="submit"] {
+  color: #fff !important;
 }
 
 main#Contact .btn_back input {
-  font-size: 18px;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525 !important;
   line-height: 1.4;
   letter-spacing: 0.13em;
   color: #fff;
   width: 262px;
-  background: #dddddd;
   box-sizing: border-box;
   font-feature-settings: "palt";
   position: relative;
   display: inline-block;
   text-align: center;
   box-sizing: border-box;
-  border: 3px solid #dddddd;
   transition: all 0.3s ease;
   height: 58px;
   padding: 15px 15px 14px;
@@ -2553,27 +2945,31 @@ main#Contact .contact_back a {
   letter-spacing: 0.13em;
   color: #fff;
   width: 262px;
-  background: #dddddd;
+  background: #00a3b5;
   box-sizing: border-box;
   font-feature-settings: "palt";
   position: relative;
   display: inline-block;
   text-align: center;
   box-sizing: border-box;
-  border: 3px solid #dddddd;
+  border: 1px solid #cbcbcb;
   transition: all 0.3s ease;
   height: 58px;
   padding: 15px 15px 14px;
 }
 
 main#Contact .contact_back a:hover {
-  color: #000;
+  color: #252525;
   background: none;
 }
 
 /*==================================
   Contact
 ==================================*/
+main#Contact {
+  margin-top: 100px;
+}
+
 main#Contact .container {
   margin: auto;
 }
@@ -2592,12 +2988,26 @@ main#Contact .container p > a:hover {
 }
 
 main#Contact .agree_area {
-  margin: 30px 0 0;
+  margin: 73px 0 0;
   text-align: center;
 }
 
 main#Contact .need {
-  color: #cc0303;
+  color: #fff;
+  background-color: #e33500;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+main#Contact .optional {
+  color: #fff;
+  background-color: #a3a3a3;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0 5px;
 }
 
 main#Contact table {
@@ -2609,22 +3019,49 @@ main#Contact table tbody {
 }
 
 main#Contact table tr {
-  display: block;
-  margin-bottom: 30px;
+  display: flex;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 20px 0;
+}
+
+main#Contact table tr:first-child {
+  border-top: 1px solid #e9e9e9;
+}
+
+main#Contact table tr:nth-child(3), main#Contact table tr:nth-child(9) {
+  padding: 36px 0 24px;
+}
+
+main#Contact table tr:nth-child(3) th, main#Contact table tr:nth-child(9) th {
+  padding-top: 0;
+}
+
+main#Contact table tr:nth-child(3) th span, main#Contact table tr:nth-child(9) th span {
+  top: 3px;
 }
 
 main#Contact table tr th {
-  font-size: 16px;
-  line-height: 1;
-  letter-spacing: 0.03em;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 500;
-  display: block;
+  font-size: 16px;
+  color: #252525;
   text-align: left;
+  display: block;
   margin-bottom: 13px;
+  width: 220px;
+  position: relative;
+  padding-top: 15px;
+}
+
+main#Contact table tr th span {
+  position: absolute;
+  top: 16px;
+  right: 20px;
 }
 
 main#Contact table tr td {
   display: block;
+  width: calc(100% - 200px);
 }
 
 main#Contact table tr td .text02 {
@@ -2632,7 +3069,7 @@ main#Contact table tr td .text02 {
 }
 
 main#Contact .check-list {
-  padding-top: 5px;
+  padding-top: 0;
   padding-left: 0;
 }
 
@@ -2640,11 +3077,107 @@ main#Contact .check-list li {
   display: inline-block;
 }
 
-main#Contact .form_wrap > p {
-  margin-top: 0 !important;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
+main#Contact .bday_cont {
+  display: flex;
+  justify-content: flex-start;
+}
+
+main#Contact .bday_cont li {
+  margin-right: 10px;
+}
+
+main#Contact .bday_cont li label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 500;
+  font-size: 16px;
+  color: #252525;
+}
+
+main#Contact .bday_cont li label input {
+  margin-right: 10px;
+}
+
+main#Contact .bday_cont li label input.bday_year {
+  width: 169px;
+}
+
+main#Contact .bday_cont li label input.bday_month {
+  width: 99px;
+}
+
+main#Contact .bday_cont li label input.bday_day {
+  width: 99px;
+}
+
+main#Contact .form_wrap > p {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
+  margin-top: 80px;
+  margin-bottom: 35px;
+}
+
+main#Contact .form-sec {
+  padding-bottom: 180px;
+}
+
+main#Contact .submit_area span:hover img {
+  right: 10px;
+}
+
+main#Contact .submit_area span img {
+  width: 25px;
+  transition: .3s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+}
+
+main.sfm2 table tr {
+  display: flex;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 20px 0;
+}
+
+main.sfm2 table tr:first-child {
+  border-top: 1px solid #e9e9e9;
+}
+
+main.sfm2 table tr:nth-child(3), main.sfm2 table tr:nth-child(9) {
+  padding: 20px 0 !important;
+}
+
+main.sfm2 table tr th {
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+main.sfm2 table tr th span {
+  top: 3px !important;
+}
+
+main.sfm2 table tr td p {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
+  line-height: 24px;
+}
+
+.send_comp {
+  padding-top: 100px;
+}
+
+.send_comp p {
+  text-align: center;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #252525;
 }
 /*# sourceMappingURL=style.css.map */

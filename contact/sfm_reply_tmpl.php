@@ -27,6 +27,21 @@ $replyMessage = <<< EOD
 ■お名前
 {$sfm_mail->name}
 
+■ふりがな
+{$sfm_mail->furigana}
+
+■性別
+{$sfm_mail->gender}
+
+■生年月日
+{$sfm_mail->year}-{$sfm_mail->month}-{$sfm_mail->day}
+
+■最終学歴
+{$sfm_mail->education}
+
+■TEL
+{$sfm_mail->tel}
+
 ■メールアドレス
 {$sfm_mail->email}
 
@@ -34,11 +49,8 @@ $replyMessage = <<< EOD
 〒{$sfm_mail->zip}
 {$sfm_mail->address}
 
-■チェックボックス　
-{$sfm_mail->check}
-
-■セレクトボックス
-{$sfm_mail->select}
+■採用形態
+{$sfm_mail->recruitment}
 
 ■お問い合わせ内容
 {$sfm_mail->message}

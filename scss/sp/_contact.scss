@@ -2,6 +2,20 @@
   Contact
 ==================================*/
 main#Contact {
+  margin-top: 55px;
+
+  .jumbo_sect{
+    .wrapper{
+      .container{
+        h3{
+          @media only screen and (max-width: 360px) {
+            font-size: 6.5vw;
+          }
+        }
+      }
+    }
+  }
+  
   .container {
     p {
       font-size: 16px;
@@ -16,12 +30,30 @@ main#Contact {
   }
 
   .agree_area {
-    margin: 30px 0 0;
+    margin: 44px 0 0;
     text-align: center;
   }
 
   .need {
-    color: #cc0303;
+    color: #fff;
+    background-color: #e33500;
+    @include Noto_Sans(500);
+    font-size: 11px;
+    padding: 0 5px 2px;
+    margin-left: 10px;
+    position: relative;
+    top: -3px;
+  }
+
+  .optional {
+    color: #fff;
+    background-color: #a3a3a3;
+    @include Noto_Sans(500);
+    font-size: 11px;
+    padding: 0 5px 2px;
+    margin-left: 10px;
+    position: relative;
+    top: -3px;
   }
 
   table {
@@ -33,16 +65,43 @@ main#Contact {
 
     tr {
       display: block;
-      margin-bottom: 25px;
+      border-bottom: 1px solid #e9e9e9;
+      padding: 10px 0 15px;
+
+      &:first-child{
+        border-top: 1px solid #e9e9e9;
+      }
+     
+      &.address{
+        td{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          .zip-wrap{
+            max-width: unset;
+            width: 57%;
+            padding-left: 20px;
+            input{
+              margin-left: 0;
+              max-width: unset;
+            }
+          }
+          .ad_btn{
+            max-width: unset;
+            width: 40%;
+            margin-left: 0;
+          }
+        }
+      }
 
       th {
+        @include Noto_Sans(500);
         font-size: 16px;
-        line-height: 1;
-        letter-spacing: 0.03em;
+        color: #252525;
         font-weight: 500;
         display: block;
         text-align: left;
-        margin-bottom: 13px;
+        margin-bottom: 7px;
 
         .caution {
           display: block;
@@ -73,7 +132,7 @@ main#Contact {
     &.type {
       > li {
         display: block;
-        margin-bottom: 18px;
+        margin-bottom: 13px;
 
         &:last-child {
           margin-bottom: 0;
@@ -101,13 +160,85 @@ main#Contact {
     }
   }
 
+  .bday_cont{
+    display: flex;
+    justify-content: flex-start;
+    li{
+      margin-right: 10px;
+      &:nth-of-type(1){
+        width: 60%;
+      }
+      &:nth-of-type(2){
+        width: 120px;
+      }
+      &:nth-of-type(3){
+        width: 120px;
+      }
+      label{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        @include Noto_Sans(500);
+        font-size: 16px;
+        color: #252525;
+        input{
+          margin-right: 5px;
+
+          &.bday_year{
+            width: 100%;
+          }
+          &.bday_month{
+            width: 100%;
+            padding: 10px 10px;
+          }
+          &.bday_day{
+            width: 100%;
+            padding: 10px 10px
+          }
+        }
+      }
+    }
+  }
+
   .form_wrap {
     > p {
-      margin-top: 0 !important;
+      @include Noto_Sans(500);
       font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.03em;
-      font-weight: 500;
+      color: #252525;
+      margin-top: 54px;
+      margin-bottom: 26px;
     }
+  }
+
+  .form-sec{
+    padding-bottom: 100px;
+  }
+
+  .submit_area{
+    span{
+      &:hover{
+        img{
+          right: 10px;
+        }
+      }
+      img{
+        width: 22px;
+        transition: .3s ease-in-out;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+      }
+    }
+  }
+}
+
+.send_comp{
+  padding-top: 60px;
+  p{
+    text-align: left;
+    @include Noto_Sans(500);
+    font-size: 16px;
+    color: #252525;
   }
 }

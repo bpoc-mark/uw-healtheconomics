@@ -21,3 +21,4 @@ if ((strpos($ua, 'iPhone') !== false) || (strpos($ua, 'iPod') !== false) || (str
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- HTML：CDNリンクを貼り付け -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.4.1/dist/css/yakuhanjp-noto.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">

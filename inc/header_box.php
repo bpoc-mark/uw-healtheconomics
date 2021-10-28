@@ -55,7 +55,7 @@ $str = explode('/', $url); ?>
 					</li>
 				</ul>
 			</li>
-			<li><a href="/" <?php if ($str[1] == "") {
+			<li><a href="/overview/" <?php if ($str[1] == "overview") {
 				echo ' class="here"';
 			} ?>>会社概要</a></li>
 			<li><a href="/message/" <?php if ($str[1] == "message") {

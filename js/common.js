@@ -4,7 +4,7 @@ $(function () {
     var t = $(this).scrollTop();
     if (t > 100) {
       $('#pageTop').addClass('active');
-      $('header').addClass('scroll');
+      // $('header').addClass('scroll');
     } else {
       $('#pageTop').removeClass('active');
       $('header').removeClass('scroll');
