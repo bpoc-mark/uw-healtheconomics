@@ -72,25 +72,25 @@ $str = explode('/', $url); ?>
 								<p class="c-anim-up">医療を取り巻く環境が変化していく中、薬剤師の役割はますます重要性を帯びてきています。<br>医療を支えるのは人であり、何よりも信頼関係が不可欠です。<br>最も身近な医療人として、患者様一人ひとりと真摯に向き合い、安心・安全で良質な医療サービスを提供することこそ私たちの使命です。<br>常に患者さまの視点に立ち、医療を通じて地域のみなさまの健康と幸福に貢献し、信頼に応える「かかりつけ薬局」としてのあり方を追求し続けます。</p>
 								<ul>
 									<li class="c-anim-up">
-										<a href="" class="btn_link">
+										<a href="/message/" class="btn_link">
 											メッセージ
 											<img src="/images/top/section_2/arrow_img.png" alt="">
 										</a>
 									</li>
 									<li class="c-anim-up">
-										<a href="" class="btn_link">
+										<a href="/overview/" class="btn_link">
 											会社概要
 											<img src="/images/top/section_2/arrow_img.png" alt="">
 										</a>
 									</li>
 									<li class="c-anim-up">
-										<a href="" class="btn_link">
+										<a href="/about/" class="btn_link">
 											ハロー薬局について
 											<img src="/images/top/section_2/arrow_img.png" alt="">
 										</a>
 									</li>
 									<li class="c-anim-up">
-										<a href="" class="btn_link">
+										<a href="/store/" class="btn_link">
 											店舗一覧
 											<img src="/images/top/section_2/arrow_img.png" alt="">
 										</a>
@@ -138,19 +138,19 @@ $str = explode('/', $url); ?>
 								<ul class="list">
 									<li class="c-anim-up">
 										<p><span>01.</span>患者さんだけを見つめるまなざしを</p>
-										<a href="" class="btn_link">薬剤師 <span>曾根 庸介</span>
+										<a href="/interview01/" class="btn_link">薬剤師 <span>曾根 庸介</span>
 											<img src="/images/top/section_3/arrow_img.png" alt="">
 										</a>
 									</li>
 									<li class="c-anim-up">
 										<p><span>02.</span>豊富な知識と経験を患者さんのために</p>
-										<a href="" class="btn_link">薬剤師 <span>加藤 茉梨恵</span>
+										<a href="/interview02/" class="btn_link">薬剤師 <span>加藤 茉梨恵</span>
 											<img src="/images/top/section_3/arrow_img.png" alt="">
 										</a>
 									</li>
 									<li class="c-anim-up">
 										<p><span>03.</span>患者様一人一人に寄り添った医療を提供する</p>
-										<a href="" class="btn_link">薬剤師 <span>鈴木 康成</span>
+										<a href="/interview03/" class="btn_link">薬剤師 <span>鈴木 康成</span>
 											<img src="/images/top/section_3/arrow_img.png" alt="">
 										</a>
 									</li>
@@ -163,7 +163,7 @@ $str = explode('/', $url); ?>
 										</a>
 									</li>
 									<li class="c-anim-up">
-										<a href="" class="btn_link">
+										<a href="/contact/" class="btn_link">
 											採用エントリーフォーム
 											<img src="/images/top/section_2/arrow_img.png" alt="">
 										</a>
