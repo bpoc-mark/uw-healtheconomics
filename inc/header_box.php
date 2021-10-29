@@ -24,22 +24,22 @@ $str = explode('/', $url); ?>
 			<li><a href="/store/" <?php if ($str[1] == "store") {
 				echo ' class="here"';
 			} ?>>店舗一覧</a></li>
-			<li id="emp_info"><a href="/" <?php if ($str[1] == "") {
+			<li id="emp_info"><a <?php if ($str[1] == "") {
 				echo ' class="here"';
 			} ?>>採用情報</a>
 				<ul class="sub_menu">
 					<li>
-						<a href=""  <?php if ($str[1] == "") {
+						<a href="/interview01/"  <?php if ($str[1] == "interview01") {
 							echo ' class="here"';
 						} ?>><span class="sp">インタビュー</span> 01.曾根庸介</a>
 					</li>
 					<li>
-						<a href=""  <?php if ($str[1] == "") {
+						<a href="/interview02/"  <?php if ($str[1] == "interview02") {
 							echo ' class="here"';
 						} ?>><span class="sp">インタビュー</span> 02.加藤 茉莉恵</a>
 					</li>
 					<li>
-						<a href=""  <?php if ($str[1] == "") {
+						<a href="/interview03/"  <?php if ($str[1] == "interview03") {
 							echo ' class="here"';
 						} ?>><span class="sp">インタビュー</span> 03.鈴木 康成</a>
 					</li>
@@ -49,7 +49,7 @@ $str = explode('/', $url); ?>
 						} ?>>募集要項</a>
 					</li>
 					<li>
-						<a href=""  <?php if ($str[1] == "") {
+						<a href="/contact/"  <?php if ($str[1] == "contact") {
 							echo ' class="here"';
 						} ?>>採用エントリーフォーム</a>
 					</li>

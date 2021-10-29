@@ -76,6 +76,19 @@ header {
       .h_left{
         opacity: 0;
       }
+      .h_right{
+        ul{
+          li{
+            .sub_menu{
+              bottom: 104px;
+              &::before{
+                top: unset;
+                bottom: -10px;
+              }
+            }
+          }
+        }
+      }
     }
   }
   &.scroll{
@@ -227,7 +240,9 @@ header {
           .sub_menu{
             transition: .3s linear;
             position: absolute;
-            bottom: 104px;
+            z-index: 1001;
+            // bottom: 104px;
+            bottom: -289px;
             left: -80px;
             margin: 0 auto;
             background-color: #fff;
@@ -247,7 +262,7 @@ header {
               position: absolute;
               width: 100%;
               height: 10px;
-              bottom: -10px;
+              top: -10px;
               left: 0;
               right: 0;
               margin: 0 auto;

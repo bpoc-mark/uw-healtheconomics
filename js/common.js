@@ -30,15 +30,15 @@ $('#header_menu').click(function(){
   $('.h_right').toggleClass('active')
 })
 
-$('#emp_info').click(function(e){
-  e.preventDefault();
+$('#emp_info a').click(function(e){
+  // $(this).preventDefault();
   if($(this).hasClass('active')){
     $(this).removeClass('active');
-    $(this).find('.sub_menu').slideUp();
+    $(this).next('.sub_menu').slideUp();
   }
   else{
     $(this).addClass('active');
-    $(this).find('.sub_menu').slideDown();
+    $(this).next('.sub_menu').slideDown();
   }
 })
 
