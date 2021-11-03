@@ -144,7 +144,7 @@
               <p>私は、基本的に患者さんだけ見ていれば、すべての人間関係は悪くなることはないように思うのです。見ている方向が重要なんです。薬剤師はドクターを見る。事務員は薬剤師を見るのではなく、スタッフ全員が患者さんを見ていれば良いのだと思います。見ているところが同じであればスタッフはみんな笑顔でいられるように思うのです。</p>
               </div>
             </div>
-            <a href="" class="btn_recruit">採用エントリーはこちら<img src="/images/top/section_3/arrow_img.png" alt=""></a>
+            <a href="/recruit/" class="btn_recruit">採用エントリーはこちら<img src="/images/top/section_3/arrow_img.png" alt=""></a>
           </div>
         </div>
       </section>
