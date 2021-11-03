@@ -5,10 +5,10 @@
 		<nav class="top_nav pc">
 			<ul>
 				<li><a href="/">HOME</a></li>
-				<li><a href="/about/">ハロー薬局について</a></li>
 				<li><a href="/store/">店舗一覧</a></li>
 				<li><a href="/overview/">会社概要</a></li>
 				<li><a href="/message/">メッセージ</a></li>
+				<li><a href="/about/">ハロー薬局について</a></li>
 			</ul>
 		</nav>
 

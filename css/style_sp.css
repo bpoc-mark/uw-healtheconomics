@@ -1650,6 +1650,10 @@ img[src$=".png"], img[src$=".jpg"] {
   letter-spacing: -1px;
 }
 
+#Store main .sect_1 .wrapper .container .store_cont .row .col .accordion .accordion_body .store_info .row .col:last-child p.time span.holiday {
+  background-color: #fcd2d2;
+}
+
 #Store main .sect_1 .wrapper .container .store_cont .row .col .accordion .accordion_body .store_info .row .col:last-child p.access {
   text-indent: -17px;
   margin-left: 17px;

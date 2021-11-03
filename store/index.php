@@ -73,7 +73,7 @@
                             <p>住所</p>
                           </div>
                           <div class="col">
-                            <p>〒430-0929 静岡県浜松市中区中央1-15-1</p>
+                            <p>〒430-0929 静岡県浜松市中区中央一丁目 15-1</p>
                             <a class="map" href="https://www.google.com/maps/place/1-ch%C5%8Dme-15-1+Ch%C5%AB%C5%8D,+Naka+Ward,+Hamamatsu,+Shizuoka+430-0929,+Japan/@34.7096282,137.7328888,17z/data=!3m1!4b1!4m5!3m4!1s0x601ade701c249061:0xeb9410aadeea0945!8m2!3d34.7096238!4d137.7350775" target="_blank">map<img src="/images/store/arrow_img.png" alt=""></a>
                           </div>
                         </li>
@@ -94,7 +94,7 @@
                             <p class="time"><span class="">火・木・金</span>8:30～17:30</p>
                             <p class="time"><span class="">土</span>8:30～17:00</p>
                             <p class="time"><span class="">日</span>9:00～17:00</p>
-                            <p class="time"><span class="">定休日</span>祝日</p>
+                            <p class="time"><span class="holiday">定休日</span>祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -117,7 +117,7 @@
                             <p>住所</p>
                           </div>
                           <div class="col">
-                            <p>〒432-8018 静岡県浜松市中区蜆塚4丁目15-2</p>
+                            <p>〒432-8018 静岡県浜松市中区蜆塚四丁目15-2 </p>
                             <a class="map" href="https://www.google.com/maps/place/4-ch%C5%8Dme-15+Shijimizuka,+Naka+Ward,+Hamamatsu,+Shizuoka+432-8018,+Japan/@34.7115082,137.7033018,17z/data=!3m1!4b1!4m5!3m4!1s0x601adee9ee72585b:0xaa90b1f1f0ff1102!8m2!3d34.7116618!4d137.7056813" target="_blank">map<img src="/images/store/arrow_img.png" alt=""></a>
                           </div>
                         </li>
@@ -136,7 +136,7 @@
                           <div class="col">
                             <p class="time"><span class="">月・火・木・金</span>8:45～18:00</p>
                             <p class="time"><span class="">水・土</span>8:45～12:30</p>
-                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
+                            <p class="time"><span class="holiday">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -178,7 +178,7 @@
                           <div class="col">
                             <p class="time"><span class="">月～金</span>8:30～18:00</p>
                             <p class="time"><span class="">土</span>8:30～12:30</p>
-                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
+                            <p class="time"><span class="holiday">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -219,7 +219,7 @@
                           </div>
                           <div class="col">
                             <p class="time"><span class="">月～金</span>8:45～17:45</p>
-                            <p class="time"><span class="">定休日</span>土曜・日曜・祝日</p>
+                            <p class="time"><span class="holiday">定休日</span>土曜・日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -266,7 +266,7 @@
                           <div class="col">
                             <p class="time"><span class="">月・火・木・金</span>9:00～18:00</p>
                             <p class="time"><span class="">水・土</span>9:00～13:00</p>
-                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
+                            <p class="time"><span class="holiday">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -308,7 +308,7 @@
                           <div class="col">
                             <p class="time"><span class="">月・火・水・金</span>8:30～13:00  15:00～18:00</p>
                             <p class="time"><span class="">木・土</span>8:30～12:00</p>
-                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
+                            <p class="time"><span class="holiday">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -350,7 +350,7 @@
                           <div class="col">
                             <p class="time"><span class="">月・火・木・金</span>8:30～18:30 </p>
                             <p class="time"><span class="">水・土</span>8:30～12:00 </p>
-                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
+                            <p class="time"><span class="holiday">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -397,7 +397,7 @@
                           <div class="col">
                             <p class="time"><span class="">月〜金</span>9:00～18:00</p>
                             <p class="time"><span class="">土</span>9:00～13:00</p>
-                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
+                            <p class="time"><span class="holiday">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -438,7 +438,7 @@
                           <div class="col">
                             <p class="time"><span class="">月・火・水・金</span>9:00～18:00</p>
                             <p class="time"><span class="">木・土</span>9:00～13:00</p>
-                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
+                            <p class="time"><span class="holiday">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>

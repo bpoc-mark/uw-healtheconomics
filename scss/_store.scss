@@ -148,6 +148,10 @@
                                 padding: 0 0 2px;
                                 border-radius: 50px;
                                 margin-right: 10px;
+
+                                &.holiday{
+                                  background-color: #fcd2d2;
+                                }
                               }
                             }
                             &.access{
