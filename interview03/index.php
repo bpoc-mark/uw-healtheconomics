@@ -125,7 +125,7 @@
                 地域の皆様の健康を守る、健康寿命を延ばす事が私たちの責務でありそれを全うしたいと思っております。</p>
               </div>
             </div>
-            <a href="/recruit/" class="btn_recruit">採用エントリーはこちら<img src="/images/top/section_3/arrow_img.png" alt=""></a>
+            <a href="/contact/" class="btn_recruit">採用エントリーはこちら<img src="/images/top/section_3/arrow_img.png" alt=""></a>
           </div>
         </div>
       </section>
