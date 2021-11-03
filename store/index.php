@@ -55,9 +55,9 @@
         <div class="wrapper">
           <div class="container">
             <div class="store_cont">
-              <h3>浜松エリア</h3>
+              <h3 class="c-anim-up">浜松エリア</h3>
               <div class="row">
-                <div class="col">
+                <div class="col c-anim-up">
                   <div class="accordion">
                     <div class="accordion_head">
                       <h4 class="accordion_header">
@@ -101,7 +101,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col c-anim-up">
                   <div class="accordion">
                     <div class="accordion_head">
                       <h4 class="accordion_header">
@@ -143,7 +143,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col c-anim-up">
                   <div class="accordion">
                     <div class="accordion_head">
                       <h4 class="accordion_header">
@@ -185,7 +185,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col c-anim-up">
                   <div class="accordion">
                     <div class="accordion_head">
                       <h4 class="accordion_header">
@@ -229,9 +229,9 @@
               </div>
             </div>
             <div class="store_cont">
-              <h3>磐田・袋井エリア</h3>
+              <h3 class="c-anim-up">磐田・袋井エリア</h3>
               <div class="row">
-                <div class="col">
+                <div class="col c-anim-up">
                   <div class="accordion">
                     <div class="accordion_head">
                       <h4 class="accordion_header">
@@ -273,7 +273,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col c-anim-up">
                   <div class="accordion">
                     <div class="accordion_head">
                       <h4 class="accordion_header">
@@ -315,7 +315,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col c-anim-up">
                   <div class="accordion">
                     <div class="accordion_head">
                       <h4 class="accordion_header">
@@ -360,9 +360,9 @@
               </div>
             </div>
             <div class="store_cont">
-              <h3>東部エリア</h3>
+              <h3 class="c-anim-up">東部エリア</h3>
               <div class="row">
-                <div class="col">
+                <div class="col c-anim-up">
                   <div class="accordion">
                     <div class="accordion_head">
                       <h4 class="accordion_header">
@@ -404,7 +404,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col c-anim-up">
                   <div class="accordion">
                     <div class="accordion_head">
                       <h4 class="accordion_header">
