@@ -53,139 +53,122 @@
       </section>
       <section class="sect_1">
         <div class="wrapper">
-          <div class="row">
-              <div class="col">
-                <ul class="list">
-                  <li class="c-anim-up">
-                    <div class="row">
-                      <div class="col">
-                        <p>会社名</p>
-                      </div>
-                      <div class="col">
-                        <p>株式会社ヘルスエコノミクス研究所</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="c-anim-up">
-                    <div class="row">
-                      <div class="col">
-                        <p>代表者</p>
-                      </div>
-                      <div class="col">
-                        <p>代表取締役　内山勝博</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="c-anim-up">
-                    <div class="row">
-                      <div class="col">
-                        <p>創業</p>
-                      </div>
-                      <div class="col">
-                        <p>1992年8月</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="c-anim-up">
-                    <div class="row">
-                      <div class="col">
-                        <p>本社所在地</p>
-                      </div>
-                      <div class="col">
-                        <p>〒433-8122 静岡県浜松市中区上島四丁目7-10<br>TEL：<a href="tel:053-467-1331">053-467-1331</a> / FAX：<a href="tel:053-467-1333">053-467-1333</a></p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="c-anim-up">
-                    <div class="row">
-                      <div class="col">
-                        <p>決算期</p>
-                      </div>
-                      <div class="col">
-                        <p>6月</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="c-anim-up">
-                    <div class="row">
-                      <div class="col">
-                        <p>設立</p>
-                      </div>
-                      <div class="col">
-                        <p>1994年10月</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="c-anim-up">
-                    <div class="row">
-                      <div class="col">
-                        <p>資本金</p>
-                      </div>
-                      <div class="col">
-                        <p>1,000万円</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="c-anim-up">
-                    <div class="row">
-                      <div class="col">
-                        <p>就業員数</p>
-                      </div>
-                      <div class="col">
-                        <p>48人（薬剤師27人）</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="c-anim-up">
-                    <div class="row">
-                      <div class="col">
-                        <p>事業内容</p>
-                      </div>
-                      <div class="col">
-                        <p>（１）調剤薬局の経営</p>
-                        <p>（２）医療経営コンサルタント</p>
-                        <p>（３）医薬品、医薬品外、医療用品の販売</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="c-anim-up">
-                    <div class="row">
-                      <div class="col">
-                        <p>主要仕入先</p>
-                      </div>
-                      <div class="col">
-                        <p>株式会社メディセオ、株式会社スズケン、アルフレッサ株式会社、<br>中北薬品株式会社、他</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="c-anim-up">
-                    <div class="row">
-                      <div class="col">
-                        <p>取引銀行</p>
-                      </div>
-                      <div class="col">
-                        <p>浜松いわた信用金庫、富士宮信用金庫</p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div class="col">
-                <div class="img_cont row">
+          <div class="container">
+            <ul class="list">
+              <li class="c-anim-up">
+                <div class="row">
                   <div class="col">
-                    <img data-aos="fade-left" data-aos-delay="300" src="/images/overview/img_1.jpg" alt="">
+                    <p>会社名</p>
                   </div>
-                  <div class="col row">
-                    <div class="col">
-                      <img data-aos="fade-right" data-aos-delay="300" src="/images/overview/img_2.jpg" alt="">
-                    </div>
-                    <div class="col">
-                      <img data-aos="fade-up" data-aos-delay="300" src="/images/overview/img_3.jpg" alt="">
-                    </div>
+                  <div class="col">
+                    <p>株式会社ヘルスエコノミクス研究所</p>
                   </div>
                 </div>
-              </div>
-            </div>
+              </li>
+              <li class="c-anim-up">
+                <div class="row">
+                  <div class="col">
+                    <p>代表者</p>
+                  </div>
+                  <div class="col">
+                    <p>代表取締役　内山勝博</p>
+                  </div>
+                </div>
+              </li>
+              <li class="c-anim-up">
+                <div class="row">
+                  <div class="col">
+                    <p>創業</p>
+                  </div>
+                  <div class="col">
+                    <p>1992年8月</p>
+                  </div>
+                </div>
+              </li>
+              <li class="c-anim-up">
+                <div class="row">
+                  <div class="col">
+                    <p>本社所在地</p>
+                  </div>
+                  <div class="col">
+                    <p>〒433-8122 静岡県浜松市中区上島四丁目7-10<br>TEL：<a href="tel:053-467-1331">053-467-1331</a> / FAX：<a href="tel:053-467-1333">053-467-1333</a></p>
+                  </div>
+                </div>
+              </li>
+              <li class="c-anim-up">
+                <div class="row">
+                  <div class="col">
+                    <p>決算期</p>
+                  </div>
+                  <div class="col">
+                    <p>6月</p>
+                  </div>
+                </div>
+              </li>
+              <li class="c-anim-up">
+                <div class="row">
+                  <div class="col">
+                    <p>設立</p>
+                  </div>
+                  <div class="col">
+                    <p>1994年10月</p>
+                  </div>
+                </div>
+              </li>
+              <li class="c-anim-up">
+                <div class="row">
+                  <div class="col">
+                    <p>資本金</p>
+                  </div>
+                  <div class="col">
+                    <p>1,000万円</p>
+                  </div>
+                </div>
+              </li>
+              <li class="c-anim-up">
+                <div class="row">
+                  <div class="col">
+                    <p>就業員数</p>
+                  </div>
+                  <div class="col">
+                    <p>48人（薬剤師27人）</p>
+                  </div>
+                </div>
+              </li>
+              <li class="c-anim-up">
+                <div class="row">
+                  <div class="col">
+                    <p>事業内容</p>
+                  </div>
+                  <div class="col">
+                    <p>（１）調剤薬局の経営</p>
+                    <p>（２）医療経営コンサルタント</p>
+                    <p>（３）医薬品、医薬品外、医療用品の販売</p>
+                  </div>
+                </div>
+              </li>
+              <li class="c-anim-up">
+                <div class="row">
+                  <div class="col">
+                    <p>主要仕入先</p>
+                  </div>
+                  <div class="col">
+                    <p>株式会社メディセオ<br>株式会社スズケン<br>アルフレッサ株式会社<br>中北薬品株式会社<br>他</p>
+                  </div>
+                </div>
+              </li>
+              <li class="c-anim-up">
+                <div class="row">
+                  <div class="col">
+                    <p>取引銀行</p>
+                  </div>
+                  <div class="col">
+                    <p>浜松いわた信用金庫<br>富士宮信用金庫</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="sect_2">
@@ -194,7 +177,7 @@
             <h3>沿革</h3>
             <div class="history">
               <ul>
-                <li>
+                <li class="c-anim-up">
                   <div class="pc"></div>
                   <div class="info">
                     <div class="row">
@@ -207,7 +190,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="c-anim-up">
                   <div class="pc"></div>
                   <div class="info">
                     <div class="row">
@@ -220,20 +203,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
-                  <div class="pc"></div>
-                  <div class="info">
-                    <div class="row">
-                      <div class="col">
-                        <p>1995年11月</p>
-                      </div>
-                      <div class="col">
-                        <p>ハロー薬局根上り松店	<span>開局</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li>
+                <li class="c-anim-up">
                   <div class="pc"></div>
                   <div class="info">
                     <div class="row">
@@ -246,7 +216,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="c-anim-up">
                   <div class="pc"></div>
                   <div class="info">
                     <div class="row">
@@ -259,7 +229,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="c-anim-up">
                   <div class="pc"></div>
                   <div class="info">
                     <div class="row">
@@ -267,12 +237,12 @@
                         <p>1998年5月</p>
                       </div>
                       <div class="col">
-                        <p>ハロー薬局下山梨店 <span>開局</span></p>
+                        <p>ハロー薬局下山梨店	<span>開局</span></p>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="c-anim-up">
                   <div class="pc"></div>
                   <div class="info">
                     <div class="row">
@@ -285,7 +255,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="c-anim-up">
                   <div class="pc"></div>
                   <div class="info">
                     <div class="row">
@@ -298,7 +268,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="c-anim-up">
                   <div class="pc"></div>
                   <div class="info">
                     <div class="row">
@@ -311,7 +281,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="c-anim-up">
                   <div class="pc"></div>
                   <div class="info">
                     <div class="row">
@@ -324,15 +294,15 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="c-anim-up">
                   <div class="pc"></div>
                   <div class="info">
                     <div class="row">
                       <div class="col">
-                        <p>2012年1月</p>
+                        <p>2021年11月</p>
                       </div>
                       <div class="col">
-                        <p>ハロー薬局万野店 <span>開局</span></p>
+                        <p>ハロー薬局蜆塚店 <span>開局</span></p>
                       </div>
                     </div>
                   </div>

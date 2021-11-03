@@ -56,7 +56,7 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <div class="img_cont row">
+                <!-- <div class="img_cont row">
                   <div class="col">
                     <img src="/images/message/img_1.jpg" alt="">
                   </div>
@@ -64,7 +64,8 @@
                     <img src="/images/message/img_2.jpg" alt="">
                     <img src="/images/message/img_3.jpg" alt="">
                   </div>
-                </div>
+                </div> -->
+                <img src="/images/message/bg_img.jpg" class="sp" alt="">
               </div>
               <div class="col">
                 <div class="p_content">

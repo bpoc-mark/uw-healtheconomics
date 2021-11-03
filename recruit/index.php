@@ -202,7 +202,7 @@
                 <p>
                   <span>01.</span>患者さんだけを見つめるまなざしを
                 </p>
-                <a href="">
+                <a href="/interview01/">
                   <p>
                     <span>薬剤師</span>
                     曾根 庸介
@@ -214,10 +214,10 @@
                 <p>
                   <span>02.</span>豊富な知識と経験を患者さんのために
                 </p>
-                <a href="">
+                <a href="/interview02/">
                   <p>
                     <span>薬剤師</span>
-                    加藤 茉梨恵
+                    加藤 茉莉恵
                   </p>
                   <img src="/images/recruit/arrow_img.png" alt="">
                 </a>
@@ -226,7 +226,7 @@
                 <p>
                   <span>03.</span>患者様一人一人に寄り添った医療を提供する
                 </p>
-                <a href="">
+                <a href="/interview03/">
                   <p>
                     <span>薬剤師</span>
                     鈴木 康成

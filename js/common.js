@@ -25,6 +25,20 @@ $(function () {
 
 });
 
+// flag to allow clicking
+var clickAllowed = true;
+$(window).on('load resize', function () {
+  var w = $(window).width();
+  if (w < 900) {
+    clickAllowed = true;
+  }
+  else{
+    clickAllowed = false;
+    $('.sub_menu').removeAttr('style');
+    $('.accordion_body').removeAttr('style');
+  }
+})
+
 $('#header_menu').click(function(){
   $('.menu span').toggleClass('show');
   $('.h_right').toggleClass('active')
@@ -32,13 +46,17 @@ $('#header_menu').click(function(){
 
 $('#emp_info a').click(function(e){
   // $(this).preventDefault();
-  if($(this).hasClass('active')){
-    $(this).removeClass('active');
-    $(this).next('.sub_menu').slideUp();
-  }
-  else{
-    $(this).addClass('active');
-    $(this).next('.sub_menu').slideDown();
+  if(clickAllowed){
+    if($(this).hasClass('active')){
+      $(this).removeClass('active');
+      $('#emp_info').removeClass('active');
+      $(this).next('.sub_menu').slideUp();
+    }
+    else{
+      $(this).addClass('active');
+      $('#emp_info').addClass('active');
+      $(this).next('.sub_menu').slideDown();
+    }
   }
 })
 
@@ -53,19 +71,6 @@ $(document).on('click', '.accordion_btn', function(e){
   }
 })
 
-// flag to allow clicking
-var clickAllowed = true;
-$(window).on('load resize', function () {
-  var w = $(window).width();
-  if (w < 900) {
-    clickAllowed = true;
-  }
-  else{
-    clickAllowed = false;
-    $('.sub_menu').removeAttr('style');
-    $('.accordion_body').removeAttr('style');
-  }
-})
 
 
 // シンプルローディング

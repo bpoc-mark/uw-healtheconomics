@@ -10,6 +10,10 @@
       padding-bottom: 180px;
       .container{
         .row{
+          background-image: url(../images/message/bg_img.jpg);
+          background-size: 73%;
+          background-position: left center;
+          background-repeat: no-repeat;
           .col{
             &:first-child{
               width: 48%;

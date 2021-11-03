@@ -27,33 +27,26 @@ $str = explode('/', $url); ?>
 <body id="Top">
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
 	<div id="AllBox">
-		<header <?php if ($str[1] == "") {
-				echo ' class="top_head"';
-			} ?>>
-			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
-		</header>
+		
 
 		<main>
 			<section class="sect_1">
 				<div class="wrapper">
-					<!-- <img src="/images/top/main.jpg" alt=""> -->
 					<div class="logo pc">
 						<a href="/">
 							<img src="/images/common/header_logo.svg" alt="">
 						</a>
 					</div>
-					<picture>
-						<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
-						<source srcset="/images/top/sp/main.jpg" media="(max-width: 899px)" type="image/webp">
-						<source srcset="/images/top/main.jpg" media="(min-width: 900px)">
-						<img src="/images/top/sp/main.jpg" alt="">
-					</picture>
+					<video autoplay muted loop id="main_video">
+						<source src="/images/top/main_video.mov" type="video/mp4">
+						Your browser does not support HTML5 video.
+					</video>
 					<div class="container">
 						<picture>
 							<!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
 							<source srcset="/images/top/sp/main_txt.png" media="(max-width: 899px)" type="image/webp">
 							<source srcset="/images/top/main_txt.png" media="(min-width: 900px)">
-							<img src="/images/top/sp/main_txt.png" alt="">
+							<img src="/images/top/sp/main_txt.png" alt="地域一番のかかりつけ薬局 | 地域に密着した“かかりつけ薬局”として 健康を考え健やかな生活をサポートします">
 						</picture>
 						<a href="">
 							Scroll
@@ -61,6 +54,12 @@ $str = explode('/', $url); ?>
 						</a>
 					</div>
 				</div>
+
+				<header <?php if ($str[1] == "") {
+						echo ' class="top_head"';
+					} ?>>
+					<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
+				</header>
 			</section>
 			<section class="sect_2">
 				<div class="wrapper">
@@ -144,7 +143,7 @@ $str = explode('/', $url); ?>
 									</li>
 									<li class="c-anim-up">
 										<p><span>02.</span>豊富な知識と経験を患者さんのために</p>
-										<a href="/interview02/" class="btn_link">薬剤師 <span>加藤 茉梨恵</span>
+										<a href="/interview02/" class="btn_link">薬剤師 <span>加藤 茉莉恵</span>
 											<img src="/images/top/section_3/arrow_img.png" alt="">
 										</a>
 									</li>
@@ -157,7 +156,7 @@ $str = explode('/', $url); ?>
 								</ul>
 								<ul class="btn_cont">
 									<li class="c-anim-up">
-										<a href="" class="btn_link">
+										<a href="/recruit/" class="btn_link">
 											募集要項
 											<img src="/images/top/section_2/arrow_img.png" alt="">
 										</a>
@@ -183,39 +182,29 @@ $str = explode('/', $url); ?>
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
 
 	<script>
-
-		// flag to allow clicking
-		var clickAllowed = true;
-		$(window).on('load resize', function () {
-		var w = $(window).width();
-		if (w < 900) {
-			clickAllowed = true;
-		}
-		else{
-			let vp_height = $(window).height() * 0.7;
-
-			$(window).on("load scroll", function () {
-				let t = $(this).scrollTop();
-				// var distance = $('.header_inner').offset().top,
-				// $window = $(window);
-				let dec_val = t / vp_height;
-				let percent = dec_val * 100;
-				let navheight = 100 - percent;
-				console.log(navheight)
-				$('.top_head').css('height', navheight + "%")
-				// if ( $window.scrollTop() >= distance ) {
-				// 	// Your div has reached the top
-				// 	// alert('reached the top');
-				// 	$('.top_head').css('height', "100px")
-				// }
-				if(navheight < 12){
-					$('.top_head').css('height', "100px");
+		$(function() {
+			$(window).scroll(function() {
+				var t = $(this).scrollTop();
+				var w = $(window).width();
+				var header = $('.top_head').offset().top;
+				var sect2 = $('.sect_2').offset().top;
+				var head_new_pos = header - t;
+				var sect2_pos = sect2 - t;
+				console.log(sect2_pos)
+				if(head_new_pos <= 0){
+					$('.top_head').css({
+						"position": "fixed",
+						"top": "0",
+						"bottom": "unset"
+					});
 					$('header').addClass('scroll');
 				}
+				if(sect2_pos >= 100){
+					$('header').removeClass('scroll');
+					$('.top_head').removeAttr('style');
+				}
 			});
-		}
-		})
-		
+		});
 	</script>
 </body>
 

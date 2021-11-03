@@ -18,13 +18,10 @@ $str = explode('/', $url); ?>
 			<li><a href="/" <?php if ($str[1] == "") {
 				echo ' class="here"';
 			} ?>>HOME</a></li>
-			<li><a href="/about/" <?php if ($str[1] == "about") {
-				echo ' class="here"';
-			} ?>>ハロー薬局について</a></li>
 			<li><a href="/store/" <?php if ($str[1] == "store") {
 				echo ' class="here"';
 			} ?>>店舗一覧</a></li>
-			<li id="emp_info"><a <?php if ($str[1] == "") {
+			<li id="emp_info"><a <?php if ($str[1] == "/") {
 				echo ' class="here"';
 			} ?>>採用情報</a>
 				<ul class="sub_menu">
@@ -44,7 +41,7 @@ $str = explode('/', $url); ?>
 						} ?>><span class="sp">インタビュー</span> 03.鈴木 康成</a>
 					</li>
 					<li>
-						<a href=""  <?php if ($str[1] == "") {
+						<a href="/recruit/"  <?php if ($str[1] == "recruit") {
 							echo ' class="here"';
 						} ?>>募集要項</a>
 					</li>
@@ -61,6 +58,9 @@ $str = explode('/', $url); ?>
 			<li><a href="/message/" <?php if ($str[1] == "message") {
 				echo ' class="here"';
 			} ?>>メッセージ</a></li>
+			<li><a href="/about/" <?php if ($str[1] == "about") {
+				echo ' class="here"';
+			} ?>>ハロー薬局について</a></li>
 		</ul>
 	</nav>
 

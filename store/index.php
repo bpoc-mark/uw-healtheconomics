@@ -90,18 +90,11 @@
                             <p>営業時間</p>
                           </div>
                           <div class="col">
-                            <p class="time"><span class="">月～金</span>8:30～18:30</p>
-                            <p class="time"><span class="">土</span>8:30～12:30</p>
-                            <p class="time"><span class="">日・祝日</span>定休日</p>
-                          </div>
-                        </li>
-                        <li class="row">
-                          <div class="col">
-                            <p>アクセス</p>
-                          </div>
-                          <div class="col">
-                            <p class="access">●JR浜松駅から遠鉄バス<br>10番のりば、85系統・労災篠ヶ瀬、71系統・労災東高笠　井、74系統・労災さぎのみや、78系統・労災産業展示館行　き、又は11番のりば、西循環元浜方面行き2系統 県総合　庁舎経由早出行きにて県総合庁舎バス停下車、徒歩1分</p>
-                            <p class="access">●遠州鉄道遠州病院前駅より徒歩3分</p>
+                            <p class="time"><span class="">月・水</span>8:30～19:00</p>
+                            <p class="time"><span class="">火・木・金</span>8:30～17:30</p>
+                            <p class="time"><span class="">土</span>8:30～17:00</p>
+                            <p class="time"><span class="">日</span>9:00～17:00</p>
+                            <p class="time"><span class="">定休日</span>祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -143,15 +136,7 @@
                           <div class="col">
                             <p class="time"><span class="">月・火・木・金</span>8:45～18:00</p>
                             <p class="time"><span class="">水・土</span>8:45～12:30</p>
-                            <p class="time"><span class="">日・祝日</span>定休日</p>
-                          </div>
-                        </li>
-                        <li class="row">
-                          <div class="col">
-                            <p>アクセス</p>
-                          </div>
-                          <div class="col">
-                            <p class="access">●JR浜松駅から遠鉄バス<br>西循環または鴨江医療センター行きにて<br>根上り松バス停下車、徒歩５分</p>
+                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -191,17 +176,9 @@
                             <p>営業時間</p>
                           </div>
                           <div class="col">
-                            <p class="time"><span class="">月～水・金</span>8:30～18:00</p>
+                            <p class="time"><span class="">月～金</span>8:30～18:00</p>
                             <p class="time"><span class="">土</span>8:30～12:30</p>
-                            <p class="time"><span class="">木・日・祝日</span>定休日</p>
-                          </div>
-                        </li>
-                        <li class="row">
-                          <div class="col">
-                            <p>アクセス</p>
-                          </div>
-                          <div class="col">
-                            <p class="access">●JR舞阪駅より徒歩1分遠鉄バス馬郡バス停・系統番号10<br>「舞阪町内・浜松駅」行きより坪井新田バス停下車、<br>徒歩3分</p>
+                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -241,17 +218,8 @@
                             <p>営業時間</p>
                           </div>
                           <div class="col">
-                            <p class="time"><span class="">月～金 </span>8:45～17:45</p>
-                            <p class="time"><span class="">土・日・祝日</span>定休日</p>
-                          </div>
-                        </li>
-                        <li class="row">
-                          <div class="col">
-                            <p>アクセス</p>
-                          </div>
-                          <div class="col">
-                            <p class="access">●天竜浜名湖線金指駅より徒歩5分</p>
-                            <p class="access">●遠鉄バス奥山・渋川方面行きにて引佐高校前バス停下車、　徒歩5分</p>
+                            <p class="time"><span class="">月～金</span>8:45～17:45</p>
+                            <p class="time"><span class="">定休日</span>土曜・日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -296,9 +264,9 @@
                             <p>営業時間</p>
                           </div>
                           <div class="col">
-                            <p class="time"><span class="">月・火・木・金</span>8:30～18:00</p>
-                            <p class="time"><span class="">水・土</span>8:30～12:30</p>
-                            <p class="time"><span class="">日・祝日</span>定休日</p>
+                            <p class="time"><span class="">月・火・木・金</span>9:00～18:00</p>
+                            <p class="time"><span class="">水・土</span>9:00～13:00</p>
+                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -338,9 +306,9 @@
                             <p>営業時間</p>
                           </div>
                           <div class="col">
-                            <p class="time"><span class="">月～水・金</span>8:30～13:00  15:00～18:30</p>
+                            <p class="time"><span class="">月・火・水・金</span>8:30～13:00  15:00～18:00</p>
                             <p class="time"><span class="">木・土</span>8:30～12:00</p>
-                            <p class="time"><span class="">日・祝日</span>定休日</p>
+                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -381,17 +349,8 @@
                           </div>
                           <div class="col">
                             <p class="time"><span class="">月・火・木・金</span>8:30～18:30 </p>
-                            <p class="time"><span class="">水</span>8:30～17:00 </p>
-                            <p class="time"><span class="">土</span>8:30～12:00 </p>
-                            <p class="time"><span class="">日・祝日</span>定休日</p>
-                          </div>
-                        </li>
-                        <li class="row">
-                          <div class="col">
-                            <p>アクセス</p>
-                          </div>
-                          <div class="col">
-                            <p class="access">●JR袋井駅から静鉄バス秋葉中遠線にて下山梨バス停下　車、徒歩3分</p>
+                            <p class="time"><span class="">水・土</span>8:30～12:00 </p>
+                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -438,15 +397,7 @@
                           <div class="col">
                             <p class="time"><span class="">月〜金</span>9:00～18:00</p>
                             <p class="time"><span class="">土</span>9:00～13:00</p>
-                            <p class="time"><span class="">日・祝日</span>定休日</p>
-                          </div>
-                        </li>
-                        <li class="row">
-                          <div class="col">
-                            <p>アクセス</p>
-                          </div>
-                          <div class="col">
-                            <p class="access">●JR富士駅より”吉原中央駅行き”バス40分、<br>中央駅にて乗り換え“茶の木平行き”バス10分、<br>「西国久保上」バス停下車徒歩3分</p>
+                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>
@@ -485,17 +436,9 @@
                             <p>営業時間</p>
                           </div>
                           <div class="col">
-                            <p class="time"><span class="">月〜金</span>9:00～18:00</p>
-                            <p class="time"><span class="">土</span>9:00～13:00</p>
-                            <p class="time"><span class="">日・祝日</span>定休日</p>
-                          </div>
-                        </li>
-                        <li class="row">
-                          <div class="col">
-                            <p>アクセス</p>
-                          </div>
-                          <div class="col">
-                            <p class="access">●JR富士宮駅より富士急静岡バス山宮・篠坂方面行き<br>下万野バス停下車、徒歩6分</p>
+                            <p class="time"><span class="">月・火・水・金</span>9:00～18:00</p>
+                            <p class="time"><span class="">木・土</span>9:00～13:00</p>
+                            <p class="time"><span class="">定休日</span>日曜・祝日</p>
                           </div>
                         </li>
                       </ul>

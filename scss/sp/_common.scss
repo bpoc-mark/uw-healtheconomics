@@ -95,12 +95,21 @@ header {
         li{
           width: 100%;
           position: relative;
-          &:nth-of-type(4){
+          &:nth-of-type(3){
             order: 6;
             margin-top: 30px;
             border-bottom: none !important;
             a{
               background-color: #27b6c6;
+            }
+            &.active{
+              &::before{
+                transform: rotate(90deg);
+                opacity: 0;
+              }
+              &::after{
+                transform: rotate(180deg);
+              }
             }
             &::before{
               content: "";
@@ -111,6 +120,19 @@ header {
               position: absolute;
               top: 25px;
               right: 16px;
+              transition: .3s ease-in-out;
+            }
+            &::after{
+              content: "";
+              display: block;
+              width: 16px;
+              height: 1px;
+              background-color: #fff;
+              position: absolute;
+              top: 25px;
+              right: 16px;
+              transform: rotate(90deg);
+              transition: .3s ease-in-out;
             }
           }
 
@@ -138,11 +160,21 @@ header {
               a{
                 background-color: unset;
               }
-              &:nth-of-type(4){
+              &:nth-of-type(3){
                 order: unset;
                 margin-top: 0;
                 border-bottom: 1px solid #5cc5d0 !important;
                 &::before{
+                  content: "";
+                  display: unset;
+                  width: unset;
+                  height: unset;
+                  background-color: unset;
+                  position: unset;
+                  top: unset;
+                  right: unset;
+                }
+                &::after{
                   content: "";
                   display: unset;
                   width: unset;
