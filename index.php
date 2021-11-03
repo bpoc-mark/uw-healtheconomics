@@ -38,7 +38,7 @@ $str = explode('/', $url); ?>
 						</a>
 					</div>
 					<video autoplay muted loop id="main_video">
-						<source src="/images/top/main_video.mov" type="video/mp4">
+						<source src="/images/top/main_video.mp4" type="video/mp4">
 						Your browser does not support HTML5 video.
 					</video>
 					<div class="container">
