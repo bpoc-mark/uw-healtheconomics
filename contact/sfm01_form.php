@@ -181,10 +181,10 @@
 								<th>住所<span class="optional">任意</span></th>
 								<td>
 									<span class="zip-wrap">
-										<input class="zip" type="text" name="zip" size="10" maxlength="8" placeholder="例）123-0004">
+										<input class="zip" type="text" name="zip" size="10" maxlength="8" placeholder="">
 									</span>
 									<input class="ad_btn" type="button" value="住所自動入力"><br>
-									<input class="text02" type="text" name="address" size="60" placeholder="例）静岡県浜松市南区下江町413">
+									<input class="text02" type="text" name="address" size="60" placeholder="">
 								</td>
 							</tr>
 

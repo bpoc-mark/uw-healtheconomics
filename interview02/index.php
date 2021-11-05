@@ -53,16 +53,18 @@
       </section>
       <section class="sect_1">
         <div class="wrapper">
-          <div class="row">
-            <div class="col">
-              <div class="txt_cont">
-                <p>求められる知識とコミュニケーションスキル。<br>それを患者さんに換言することが大切。</p>
-                <span class="num">02.</span>
-                <h3>加藤 茉莉恵<span>Marie Kato</span></h3>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="txt_cont">
+                  <p>求められる知識とコミュニケーションスキル。<br>それを患者さんに換言することが大切。</p>
+                  <span class="num">02.</span>
+                  <h3>加藤 茉莉恵<span>Marie Kato</span></h3>
+                </div>
               </div>
-            </div>
-            <div class="col">
-              <img src="/images/interview/interview02/img_1.jpg" alt="">
+              <div class="col">
+                <img src="/images/interview/interview02/img_1.jpg" alt="">
+              </div>
             </div>
           </div>
         </div>

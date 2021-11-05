@@ -134,11 +134,11 @@ header .header_inner {
   flex-wrap: wrap;
   height: 100%;
   width: 100%;
+  background-color: #fff;
 }
 
 header .header_inner .h_left {
   opacity: 1;
-  width: 40%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -147,19 +147,13 @@ header .header_inner .h_left {
   transition: .3s ease-in-out;
 }
 
-@media screen and (max-width: 1280px) {
-  header .header_inner .h_left {
-    width: 30%;
-  }
-}
-
 header .header_inner .h_left .logo a img {
   width: 185px;
 }
 
 header .header_inner .h_right {
   padding-left: 70px;
-  width: 60%;
+  padding-right: 65px;
   height: 100%;
   background: #00b680;
   background: linear-gradient(270deg, #00b680 0%, #00c1d8 100%);
@@ -167,15 +161,10 @@ header .header_inner .h_right {
   align-items: center;
 }
 
-@media screen and (max-width: 1280px) {
-  header .header_inner .h_right {
-    width: 70%;
-  }
-}
-
 @media screen and (max-width: 1100px) {
   header .header_inner .h_right {
     padding-left: 30px;
+    padding-right: 0;
   }
 }
 
@@ -1070,27 +1059,33 @@ img[src$=".png"], img[src$=".jpg"] {
   background-color: #99dcd8;
 }
 
-#Top main .sect_2 .wrapper .row {
+#Top main .sect_2 .wrapper .container {
+  max-width: 1400px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#Top main .sect_2 .wrapper .container .row {
   position: relative;
   z-index: 1;
   align-items: center;
 }
 
-#Top main .sect_2 .wrapper .row .col {
+#Top main .sect_2 .wrapper .container .row .col {
   width: 50%;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child {
+#Top main .sect_2 .wrapper .container .row .col:first-child {
   padding-right: 55px;
   padding-left: 50px;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont {
   max-width: 553px;
   margin-left: auto;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont span {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont span {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -1099,7 +1094,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: block;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont h3 {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont h3 {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 700;
   font-size: 28px;
@@ -1108,7 +1103,7 @@ img[src$=".png"], img[src$=".jpg"] {
   padding: 5px 0 65px;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont p {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 500;
   font-size: 16px;
@@ -1116,21 +1111,21 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 28.8px;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont ul {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont ul {
   margin-top: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont ul li {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont ul li {
   width: 48.81%;
   border: 1px solid #cbcbcb;
   margin-bottom: 9px;
   position: relative;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont ul li a {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont ul li a {
   width: 100%;
   display: block;
   padding: 23px 30px;
@@ -1142,7 +1137,7 @@ img[src$=".png"], img[src$=".jpg"] {
   color: #252525;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont ul li a img {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont ul li a img {
   width: 25px;
   transition: .3s ease-in-out;
   position: absolute;
@@ -1152,12 +1147,12 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 @media only screen and (max-width: 1180px) {
-  #Top main .sect_2 .wrapper .row .col:first-child .txt_cont ul li a img {
+  #Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont ul li a img {
     right: 10px;
   }
 }
 
-#Top main .sect_2 .wrapper .row .col:last-child {
+#Top main .sect_2 .wrapper .container .row .col:last-child {
   padding-left: 30px;
 }
 
@@ -1170,46 +1165,52 @@ img[src$=".png"], img[src$=".jpg"] {
   padding-bottom: 180px;
 }
 
-#Top main .sect_3 .wrapper .row .col {
+#Top main .sect_3 .wrapper .container {
+  max-width: 1400px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#Top main .sect_3 .wrapper .container .row .col {
   width: 50%;
 }
 
-#Top main .sect_3 .wrapper .row .col:first-child {
+#Top main .sect_3 .wrapper .container .row .col:first-child {
   padding-right: 55px;
 }
 
-#Top main .sect_3 .wrapper .row .col:first-child .img_cont {
+#Top main .sect_3 .wrapper .container .row .col:first-child .img_cont {
   display: flex;
   justify-content: space-between;
 }
 
-#Top main .sect_3 .wrapper .row .col:first-child .img_cont .item:first-child {
+#Top main .sect_3 .wrapper .container .row .col:first-child .img_cont .item:first-child {
   width: 43.28%;
 }
 
-#Top main .sect_3 .wrapper .row .col:first-child .img_cont .item:first-child img:first-child {
+#Top main .sect_3 .wrapper .container .row .col:first-child .img_cont .item:first-child img:first-child {
   margin-bottom: 10px;
 }
 
-#Top main .sect_3 .wrapper .row .col:first-child .img_cont .item:first-child img.p-l-60 {
+#Top main .sect_3 .wrapper .container .row .col:first-child .img_cont .item:first-child img.p-l-60 {
   padding-left: 60px;
 }
 
-#Top main .sect_3 .wrapper .row .col:first-child .img_cont .item:last-child {
+#Top main .sect_3 .wrapper .container .row .col:first-child .img_cont .item:last-child {
   width: 55.16%;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child {
+#Top main .sect_3 .wrapper .container .row .col:last-child {
   padding-right: 55px;
   padding-left: 30px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont {
   max-width: 570px;
   margin-right: auto;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont span {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont span {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -1218,7 +1219,7 @@ img[src$=".png"], img[src$=".jpg"] {
   letter-spacing: .13em;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont h3 {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont h3 {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 700;
   font-size: 28px;
@@ -1227,7 +1228,7 @@ img[src$=".png"], img[src$=".jpg"] {
   padding: 5px 0 65px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont p {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 500;
   font-size: 16px;
@@ -1235,20 +1236,20 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 28.8px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list {
   margin-top: 45px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li {
   width: 100%;
   position: relative;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li:not(:last-child) {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li:not(:last-child) {
   margin-bottom: 15px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li p {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 500;
   font-size: 18px;
@@ -1256,7 +1257,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-bottom: 3px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li p span {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li p span {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -1264,7 +1265,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: unset;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li a {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li a {
   background-color: #2fc0c5;
   width: 100%;
   display: block;
@@ -1277,14 +1278,14 @@ img[src$=".png"], img[src$=".jpg"] {
   color: #fff;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li a span {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li a span {
   font-size: 26px;
   color: #fff;
   padding-left: 10px;
   display: unset;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li a img {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li a img {
   width: 25px;
   transition: .3s ease-in-out;
   position: absolute;
@@ -1293,14 +1294,14 @@ img[src$=".png"], img[src$=".jpg"] {
   transform: translate(0, -50%);
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .btn_cont {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .btn_cont {
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .btn_cont li {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .btn_cont li {
   width: 48.81%;
   border: 1px solid #cbcbcb;
   margin-bottom: 9px;
@@ -1308,12 +1309,12 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 @media only screen and (max-width: 1250px) {
-  #Top main .sect_3 .wrapper .row .col:last-child .txt_cont .btn_cont li:last-child a img {
+  #Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .btn_cont li:last-child a img {
     right: 10px;
   }
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .btn_cont li a {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .btn_cont li a {
   width: 100%;
   display: block;
   padding: 23px 28px;
@@ -1326,12 +1327,12 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 @media only screen and (max-width: 1250px) {
-  #Top main .sect_3 .wrapper .row .col:last-child .txt_cont .btn_cont li a {
+  #Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .btn_cont li a {
     font-size: 14px;
   }
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .btn_cont li a img {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .btn_cont li a img {
   width: 25px;
   transition: .3s ease-in-out;
   position: absolute;
@@ -1454,9 +1455,15 @@ img[src$=".png"], img[src$=".jpg"] {
   padding-bottom: 110px;
 }
 
+#Recruit main .sect_1 .wrapper .container:last-child {
+  max-width: 1400px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 #Recruit main .sect_1 .wrapper .row .col:first-child {
-  width: 56%;
-  padding-right: 80px;
+  width: 61.07%;
+  padding-right: 85px;
   padding-left: 50px;
 }
 
@@ -1501,7 +1508,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Recruit main .sect_1 .wrapper .row .col:last-child {
-  width: 44%;
+  width: 38.93%;
 }
 
 #Recruit main .sect_2 .wrapper {
@@ -1523,10 +1530,35 @@ img[src$=".png"], img[src$=".jpg"] {
   max-width: 1040px;
   margin: 0 auto;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 #Recruit main .sect_2 .wrapper .container .row .col {
   width: 32.12%;
+}
+
+@media only screen and (max-width: 972px) {
+  #Recruit main .sect_2 .wrapper .container .row .col:first-child p {
+    margin-bottom: 42px !important;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  #Recruit main .sect_2 .wrapper .container .row .col:first-child p {
+    margin-bottom: 11px !important;
+  }
+}
+
+@media only screen and (max-width: 1126px) {
+  #Recruit main .sect_2 .wrapper .container .row .col:not(:last-child) p {
+    margin-bottom: 42px;
+  }
+}
+
+@media only screen and (max-width: 972px) {
+  #Recruit main .sect_2 .wrapper .container .row .col:not(:last-child) p {
+    margin-bottom: 11px;
+  }
 }
 
 #Recruit main .sect_2 .wrapper .container .row .col p {
@@ -1568,6 +1600,7 @@ img[src$=".png"], img[src$=".jpg"] {
   font-weight: 500;
   font-size: 32px;
   color: #fff;
+  margin-bottom: 0 !important;
 }
 
 #Recruit main .sect_2 .wrapper .container .row .col a p span {
@@ -1857,27 +1890,33 @@ img[src$=".png"], img[src$=".jpg"] {
   background-color: #99dcd8;
 }
 
-#About main .sect_1 .wrapper .row {
+#About main .sect_1 .wrapper .container {
+  max-width: 1400px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#About main .sect_1 .wrapper .container .row {
   position: relative;
   z-index: 1;
   align-items: center;
 }
 
-#About main .sect_1 .wrapper .row .col {
+#About main .sect_1 .wrapper .container .row .col {
   width: 50%;
 }
 
-#About main .sect_1 .wrapper .row .col:first-child {
+#About main .sect_1 .wrapper .container .row .col:first-child {
   padding-left: 50px;
   padding-right: 40px;
 }
 
-#About main .sect_1 .wrapper .row .col:first-child .txt_cont {
-  max-width: 552px;
+#About main .sect_1 .wrapper .container .row .col:first-child .txt_cont {
+  max-width: 560px;
   margin-left: auto;
 }
 
-#About main .sect_1 .wrapper .row .col:first-child .txt_cont span {
+#About main .sect_1 .wrapper .container .row .col:first-child .txt_cont span {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -1886,7 +1925,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: block;
 }
 
-#About main .sect_1 .wrapper .row .col:first-child .txt_cont h3 {
+#About main .sect_1 .wrapper .container .row .col:first-child .txt_cont h3 {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 700;
   font-size: 28px;
@@ -1895,7 +1934,7 @@ img[src$=".png"], img[src$=".jpg"] {
   padding: 5px 0 65px;
 }
 
-#About main .sect_1 .wrapper .row .col:first-child .txt_cont p {
+#About main .sect_1 .wrapper .container .row .col:first-child .txt_cont p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 500;
   font-size: 16px;
@@ -1903,7 +1942,7 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 28.8px;
 }
 
-#About main .sect_1 .wrapper .row .col:last-child {
+#About main .sect_1 .wrapper .container .row .col:last-child {
   padding-left: 60px;
 }
 
@@ -1989,24 +2028,30 @@ img[src$=".png"], img[src$=".jpg"] {
   padding-top: 95px;
 }
 
-#Interview main .sect_1 .wrapper .row {
+#Interview main .sect_1 .wrapper .container {
+  max-width: 1400px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#Interview main .sect_1 .wrapper .container .row {
   align-items: center;
 }
 
-#Interview main .sect_1 .wrapper .row .col {
+#Interview main .sect_1 .wrapper .container .row .col {
   width: 50%;
 }
 
-#Interview main .sect_1 .wrapper .row .col:first-child {
+#Interview main .sect_1 .wrapper .container .row .col:first-child {
   padding-left: 50px;
 }
 
-#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont {
+#Interview main .sect_1 .wrapper .container .row .col:first-child .txt_cont {
   max-width: 540px;
   margin-left: auto;
 }
 
-#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont p {
+#Interview main .sect_1 .wrapper .container .row .col:first-child .txt_cont p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 500;
   font-size: 24px;
@@ -2015,7 +2060,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-bottom: 55px;
 }
 
-#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont .num {
+#Interview main .sect_1 .wrapper .container .row .col:first-child .txt_cont .num {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -2023,7 +2068,7 @@ img[src$=".png"], img[src$=".jpg"] {
   letter-spacing: .13em;
 }
 
-#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont h3 {
+#Interview main .sect_1 .wrapper .container .row .col:first-child .txt_cont h3 {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 700;
   font-size: 32px;
@@ -2031,7 +2076,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-top: 6px;
 }
 
-#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont h3 span {
+#Interview main .sect_1 .wrapper .container .row .col:first-child .txt_cont h3 span {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -2040,7 +2085,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-left: 20px;
 }
 
-#Interview main .sect_1 .wrapper .row .col:last-child {
+#Interview main .sect_1 .wrapper .container .row .col:last-child {
   padding-left: 30px;
 }
 
@@ -2160,10 +2205,35 @@ img[src$=".png"], img[src$=".jpg"] {
   max-width: 1040px;
   margin: 0 auto;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 #Interview main .sect_3 .wrapper .container .row .col {
   width: 32.12%;
+}
+
+@media only screen and (max-width: 972px) {
+  #Interview main .sect_3 .wrapper .container .row .col:first-child p {
+    margin-bottom: 42px !important;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  #Interview main .sect_3 .wrapper .container .row .col:first-child p {
+    margin-bottom: 11px !important;
+  }
+}
+
+@media only screen and (max-width: 1126px) {
+  #Interview main .sect_3 .wrapper .container .row .col:not(:last-child) p {
+    margin-bottom: 42px;
+  }
+}
+
+@media only screen and (max-width: 972px) {
+  #Interview main .sect_3 .wrapper .container .row .col:not(:last-child) p {
+    margin-bottom: 11px;
+  }
 }
 
 #Interview main .sect_3 .wrapper .container .row .col p {
@@ -2205,6 +2275,7 @@ img[src$=".png"], img[src$=".jpg"] {
   font-weight: 500;
   font-size: 32px;
   color: #fff;
+  margin-bottom: 0 !important;
 }
 
 #Interview main .sect_3 .wrapper .container .row .col a p span {
@@ -2631,7 +2702,7 @@ main#Contact .zip-wrap::before {
   font-size: 16px;
   color: #252525;
   position: absolute;
-  top: 1.2em;
+  top: .7em;
   left: 0;
   margin: auto;
 }

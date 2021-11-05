@@ -56,7 +56,7 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <!-- <div class="img_cont row">
+                <div class="sp img_cont row">
                   <div class="col">
                     <img src="/images/message/img_1.jpg" alt="">
                   </div>
@@ -64,8 +64,8 @@
                     <img src="/images/message/img_2.jpg" alt="">
                     <img src="/images/message/img_3.jpg" alt="">
                   </div>
-                </div> -->
-                <img src="/images/message/bg_img.jpg" class="sp" alt="">
+                </div>
+                <!-- <img src="/images/message/bg_img.jpg" class="sp" alt=""> -->
               </div>
               <div class="col">
                 <div class="p_content">
@@ -86,7 +86,12 @@
                 </div>
                 <h4>
                 代表取締役
-                <img src="/images/message/name.png" alt="">
+                <picture>
+                  <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
+                  <source srcset="/images/message/sp/name.png" media="(max-width: 899px)" type="image/webp">
+                  <source srcset="/images/message/name.png" media="(min-width: 900px)">
+                  <img src="/images/message/sp/name.png" alt="地域一番のかかりつけ薬局 | 地域に密着した“かかりつけ薬局”として 健康を考え健やかな生活をサポートします">
+                </picture>
                 </h4>
               </div>
             </div>

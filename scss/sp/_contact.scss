@@ -32,6 +32,15 @@ main#Contact {
   .agree_area {
     margin: 44px 0 0;
     text-align: center;
+
+    label{
+      @include Noto_Sans(400);
+      font-size: 16px;
+      color: #252525;
+      @media only screen and (max-width: 340px) {
+        font-size: 4.6vw;
+      }
+    }
   }
 
   .need {
@@ -131,8 +140,13 @@ main#Contact {
 
     &.type {
       > li {
-        display: block;
-        margin-bottom: 13px;
+        display: inline-block;
+        // margin-bottom: 13px;
+
+        @media only screen and (max-width: 450px) {
+          display: block;
+          margin-bottom: 13px;
+        }
 
         &:last-child {
           margin-bottom: 0;

@@ -53,16 +53,18 @@
       </section>
       <section class="sect_1">
         <div class="wrapper">
-          <div class="row">
-            <div class="col c-anim-up">
-              <div class="txt_cont">
-                <span>ABOUT US</span>
-                <h3>地域に密着した“かかりつけ薬局”<br>として健康を共に考え、<br>健やかな生活の実現をサポートします。</h3>
-                <p>医療を取り巻く環境が変化していく中、薬剤師の役割はますます重要性を帯びてきています。<br>医療を支えるのは人であり、何よりも信頼関係が不可欠です。<br>最も身近な医療人として、患者様一人ひとりと真摯に向き合い、安心・安全で良質な医療サービスを提供することこそ私たちの使命です。<br>常に患者さまの視点に立ち、医療を通じて地域のみなさまの健康と幸福に貢献し、信頼に応える「かかりつけ薬局」としてのあり方を追求し続けます。</p>
+          <div class="container">
+            <div class="row">
+              <div class="col c-anim-up">
+                <div class="txt_cont">
+                  <span>ABOUT US</span>
+                  <h3>地域に密着した“かかりつけ薬局”<br>として健康を共に考え、<br>健やかな生活の実現をサポートします。</h3>
+                  <p>医療を取り巻く環境が変化していく中、薬剤師の役割はますます重要性を帯びてきています。<br>医療を支えるのは人であり、何よりも信頼関係が不可欠です。<br>最も身近な医療人として、患者様一人ひとりと真摯に向き合い、安心・安全で良質な医療サービスを提供することこそ私たちの使命です。<br>常に患者さまの視点に立ち、医療を通じて地域のみなさまの健康と幸福に貢献し、信頼に応える「かかりつけ薬局」としてのあり方を追求し続けます。</p>
+                </div>
               </div>
-            </div>
-            <div class="col c-anim-up">
-              <img src="/images/about/img_1.jpg" alt="">
+              <div class="col c-anim-up">
+                <img src="/images/about/img_1.jpg" alt="">
+              </div>
             </div>
           </div>
         </div>

@@ -53,16 +53,18 @@
       </section>
       <section class="sect_1">
         <div class="wrapper">
-          <div class="row">
-            <div class="col">
-              <div class="txt_cont">
-                <p>患者様一人一人に寄り添った医療を提供することが出来る薬剤師を目指して</p>
-                <span class="num">03.</span>
-                <h3>鈴木 康成<span>Yasunari Suzuki</span></h3>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="txt_cont">
+                  <p>患者様一人一人に寄り添った医療を提供することが出来る薬剤師を目指して</p>
+                  <span class="num">03.</span>
+                  <h3>鈴木 康成<span>Yasunari Suzuki</span></h3>
+                </div>
               </div>
-            </div>
-            <div class="col">
-              <img src="/images/interview/interview03/img_1.jpg" alt="">
+              <div class="col">
+                <img src="/images/interview/interview03/img_1.jpg" alt="">
+              </div>
             </div>
           </div>
         </div>

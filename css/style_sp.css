@@ -75,6 +75,7 @@ header .header_inner {
   align-items: center;
   flex-wrap: wrap;
   height: 100%;
+  background-color: #fff;
 }
 
 header .header_inner .h_left .logo {
@@ -850,6 +851,7 @@ img[src$=".png"], img[src$=".jpg"] {
   height: 100vh;
   margin-top: 55px;
   position: relative;
+  background-color: #000;
 }
 
 #Top main .sect_1 .wrapper #main_video {
@@ -959,23 +961,28 @@ img[src$=".png"], img[src$=".jpg"] {
   background-color: #99dcd8;
 }
 
-#Top main .sect_2 .wrapper .row {
+#Top main .sect_2 .wrapper .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#Top main .sect_2 .wrapper .container .row {
   position: relative;
   z-index: 1;
   align-items: center;
 }
 
-#Top main .sect_2 .wrapper .row .col {
+#Top main .sect_2 .wrapper .container .row .col {
   width: 100%;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child {
+#Top main .sect_2 .wrapper .container .row .col:first-child {
   padding-right: 15px;
   padding-left: 15px;
   padding-bottom: 65px;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont span {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont span {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -984,7 +991,7 @@ img[src$=".png"], img[src$=".jpg"] {
   letter-spacing: .13em;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont h3 {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont h3 {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 700;
   font-size: 21px;
@@ -993,29 +1000,29 @@ img[src$=".png"], img[src$=".jpg"] {
   padding: 5px 0 40px;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont p {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   line-height: 24px;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont ul {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont ul {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont ul li {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont ul li {
   width: 100%;
   border: 1px solid #cbcbcb;
   margin-bottom: 10px;
   position: relative;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont ul li a {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont ul li a {
   width: 100%;
   display: block;
   padding: 15px 20px;
@@ -1027,7 +1034,7 @@ img[src$=".png"], img[src$=".jpg"] {
   color: #252525;
 }
 
-#Top main .sect_2 .wrapper .row .col:first-child .txt_cont ul li a img {
+#Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont ul li a img {
   width: 22px;
   transition: .3s ease-in-out;
   position: absolute;
@@ -1036,7 +1043,7 @@ img[src$=".png"], img[src$=".jpg"] {
   transform: translate(0, -50%);
 }
 
-#Top main .sect_2 .wrapper .row .col:last-child {
+#Top main .sect_2 .wrapper .container .row .col:last-child {
   padding-left: 50px;
 }
 
@@ -1047,17 +1054,23 @@ img[src$=".png"], img[src$=".jpg"] {
 #Top main .sect_3 .wrapper {
   padding-top: 60px;
   padding-bottom: 100px;
+  background-color: #fff;
 }
 
-#Top main .sect_3 .wrapper .row .col {
+#Top main .sect_3 .wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#Top main .sect_3 .wrapper .container .row .col {
   width: 100%;
 }
 
-#Top main .sect_3 .wrapper .row .col:first-child {
+#Top main .sect_3 .wrapper .container .row .col:first-child {
   display: none;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont span {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont span {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -1067,7 +1080,7 @@ img[src$=".png"], img[src$=".jpg"] {
   letter-spacing: .13em;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont h3 {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont h3 {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 700;
   font-size: 21px;
@@ -1076,16 +1089,16 @@ img[src$=".png"], img[src$=".jpg"] {
   padding: 5px 15px 40px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont p {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   line-height: 24px;
   padding: 0 15px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .img_cont {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .img_cont {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
@@ -1093,37 +1106,37 @@ img[src$=".png"], img[src$=".jpg"] {
   padding-right: 50px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .img_cont .item:first-child {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .img_cont .item:first-child {
   width: 43.28%;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .img_cont .item:first-child img:first-child {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .img_cont .item:first-child img:first-child {
   margin-bottom: 5px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .img_cont .item:first-child img.p-r-40 {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .img_cont .item:first-child img.p-r-40 {
   padding-right: 40px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .img_cont .item:last-child {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .img_cont .item:last-child {
   width: 55.16%;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list {
   margin-top: 50px;
   padding: 0 15px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li {
   width: 100%;
   position: relative;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li:not(:last-child) {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li:not(:last-child) {
   margin-bottom: 15px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li p {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 500;
   font-size: 14px;
@@ -1133,7 +1146,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-left: 24px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li p span {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li p span {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -1142,7 +1155,7 @@ img[src$=".png"], img[src$=".jpg"] {
   display: unset;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li a {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li a {
   background-color: #2fc0c5;
   width: 100%;
   display: block;
@@ -1155,14 +1168,14 @@ img[src$=".png"], img[src$=".jpg"] {
   color: #fff;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li a span {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li a span {
   font-size: 18px;
   color: #fff;
   padding-left: 10px;
   display: unset;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .list li a img {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li a img {
   width: 22px;
   transition: .3s ease-in-out;
   position: absolute;
@@ -1171,7 +1184,7 @@ img[src$=".png"], img[src$=".jpg"] {
   transform: translate(0, -50%);
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .btn_cont {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .btn_cont {
   padding: 0 15px;
   margin-top: 30px;
   display: flex;
@@ -1179,14 +1192,14 @@ img[src$=".png"], img[src$=".jpg"] {
   justify-content: space-between;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .btn_cont li {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .btn_cont li {
   width: 100%;
   border: 1px solid #cbcbcb;
   margin-bottom: 10px;
   position: relative;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .btn_cont li a {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .btn_cont li a {
   width: 100%;
   display: block;
   padding: 15px 20px;
@@ -1198,7 +1211,7 @@ img[src$=".png"], img[src$=".jpg"] {
   color: #252525;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .txt_cont .btn_cont li a img {
+#Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .btn_cont li a img {
   width: 22px;
   transition: .3s ease-in-out;
   position: absolute;
@@ -1260,7 +1273,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Message main .sect_1 .wrapper .container .row .col:last-child .p_content p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   line-height: 24px;
@@ -1314,6 +1327,11 @@ img[src$=".png"], img[src$=".jpg"] {
   text-align: left;
   padding-top: 55px;
   padding-bottom: 60px;
+}
+
+#Recruit main .sect_1 .wrapper .container:last-child {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #Recruit main .sect_1 .wrapper .row .col:first-child {
@@ -1458,14 +1476,6 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Store main .sect_1 .wrapper .container .store_cont {
   padding-bottom: 64px;
-}
-
-#Store main .sect_1 .wrapper .container .store_cont:nth-child(1) .row .col:nth-child(1) .accordion .accordion_head .accordion_btn, #Store main .sect_1 .wrapper .container .store_cont:nth-child(1) .row .col:nth-child(2) .accordion .accordion_head .accordion_btn {
-  display: none;
-}
-
-#Store main .sect_1 .wrapper .container .store_cont:nth-child(1) .row .col:nth-child(1) .accordion .accordion_body, #Store main .sect_1 .wrapper .container .store_cont:nth-child(1) .row .col:nth-child(2) .accordion .accordion_body {
-  display: block;
 }
 
 #Store main .sect_1 .wrapper .container .store_cont h3 {
@@ -1704,22 +1714,27 @@ img[src$=".png"], img[src$=".jpg"] {
   background-color: #99dcd8;
 }
 
-#About main .sect_1 .wrapper .row {
+#About main .sect_1 .wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#About main .sect_1 .wrapper .container .row {
   position: relative;
   z-index: 1;
   align-items: center;
 }
 
-#About main .sect_1 .wrapper .row .col {
+#About main .sect_1 .wrapper .container .row .col {
   width: 100%;
 }
 
-#About main .sect_1 .wrapper .row .col:first-child {
+#About main .sect_1 .wrapper .container .row .col:first-child {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-#About main .sect_1 .wrapper .row .col:first-child .txt_cont span {
+#About main .sect_1 .wrapper .container .row .col:first-child .txt_cont span {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -1728,7 +1743,7 @@ img[src$=".png"], img[src$=".jpg"] {
   letter-spacing: .13em;
 }
 
-#About main .sect_1 .wrapper .row .col:first-child .txt_cont h3 {
+#About main .sect_1 .wrapper .container .row .col:first-child .txt_cont h3 {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 700;
   font-size: 21px;
@@ -1737,7 +1752,7 @@ img[src$=".png"], img[src$=".jpg"] {
   padding: 5px 0 40px;
 }
 
-#About main .sect_1 .wrapper .row .col:first-child .txt_cont p {
+#About main .sect_1 .wrapper .container .row .col:first-child .txt_cont p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 500;
   font-size: 16px;
@@ -1745,7 +1760,7 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 24px;
 }
 
-#About main .sect_1 .wrapper .row .col:last-child {
+#About main .sect_1 .wrapper .container .row .col:last-child {
   padding-left: 50px;
   padding-top: 70px;
 }
@@ -1818,20 +1833,25 @@ img[src$=".png"], img[src$=".jpg"] {
   padding-top: 54px;
 }
 
-#Interview main .sect_1 .wrapper .row {
+#Interview main .sect_1 .wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#Interview main .sect_1 .wrapper .container .row {
   align-items: center;
 }
 
-#Interview main .sect_1 .wrapper .row .col {
+#Interview main .sect_1 .wrapper .container .row .col {
   width: 100%;
 }
 
-#Interview main .sect_1 .wrapper .row .col:first-child {
+#Interview main .sect_1 .wrapper .container .row .col:first-child {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont p {
+#Interview main .sect_1 .wrapper .container .row .col:first-child .txt_cont p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 700;
   font-size: 18px;
@@ -1840,7 +1860,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-bottom: 14px;
 }
 
-#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont .num {
+#Interview main .sect_1 .wrapper .container .row .col:first-child .txt_cont .num {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -1848,7 +1868,7 @@ img[src$=".png"], img[src$=".jpg"] {
   letter-spacing: .13em;
 }
 
-#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont h3 {
+#Interview main .sect_1 .wrapper .container .row .col:first-child .txt_cont h3 {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 700;
   font-size: 21px;
@@ -1856,7 +1876,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-top: 6px;
 }
 
-#Interview main .sect_1 .wrapper .row .col:first-child .txt_cont h3 span {
+#Interview main .sect_1 .wrapper .container .row .col:first-child .txt_cont h3 span {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -1865,7 +1885,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-left: 15px;
 }
 
-#Interview main .sect_1 .wrapper .row .col:last-child {
+#Interview main .sect_1 .wrapper .container .row .col:last-child {
   padding-left: 40px;
   padding-top: 40px;
 }
@@ -2357,7 +2377,7 @@ main#Contact .zip-wrap::before {
   font-size: 16px;
   color: #252525;
   position: absolute;
-  top: 1.2em;
+  top: .7em;
   left: 0;
   margin: auto;
 }
@@ -2865,6 +2885,19 @@ main#Contact .agree_area {
   text-align: center;
 }
 
+main#Contact .agree_area label {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 400;
+  font-size: 16px;
+  color: #252525;
+}
+
+@media only screen and (max-width: 340px) {
+  main#Contact .agree_area label {
+    font-size: 4.6vw;
+  }
+}
+
 main#Contact .need {
   color: #fff;
   background-color: #e33500;
@@ -2966,8 +2999,14 @@ main#Contact .check-list li {
 }
 
 main#Contact .check-list.type > li {
-  display: block;
-  margin-bottom: 13px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 450px) {
+  main#Contact .check-list.type > li {
+    display: block;
+    margin-bottom: 13px;
+  }
 }
 
 main#Contact .check-list.type > li:last-child {

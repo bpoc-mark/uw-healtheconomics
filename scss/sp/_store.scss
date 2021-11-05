@@ -12,24 +12,24 @@
         .store_cont{
           padding-bottom: 64px;
 
-          &:nth-child(1){
-            .row{
-              .col{
-                &:nth-child(1), &:nth-child(2){
-                  .accordion{
-                    .accordion_head{
-                      .accordion_btn{
-                        display: none
-                      }
-                    }
-                    .accordion_body{
-                      display: block;
-                    }
-                  }
-                }
-              }
-            }
-          }
+          // &:nth-child(1){
+          //   .row{
+          //     .col{
+          //       &:nth-child(1), &:nth-child(2){
+          //         .accordion{
+          //           .accordion_head{
+          //             .accordion_btn{
+          //               display: none
+          //             }
+          //           }
+          //           .accordion_body{
+          //             display: block;
+          //           }
+          //         }
+          //       }
+          //     }
+          //   }
+          // }
 
           h3{
             @include Noto_Sans(700);

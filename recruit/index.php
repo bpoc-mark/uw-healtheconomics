@@ -62,7 +62,8 @@
               信頼される薬剤師の育成を目指しています。
             </p>
           </div>
-          <div class="row">
+          <div class="container">
+            <div class="row">
               <div class="col">
                 <ul class="list">
                   <li class="c-anim-up">
@@ -191,6 +192,7 @@
                 <img src="/images/recruit/img_1.jpg" alt="" data-aos="fade-left">
               </div>
             </div>
+          </div>
         </div>
       </section>
       <section class="sect_2">
