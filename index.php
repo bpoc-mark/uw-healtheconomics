@@ -37,10 +37,9 @@ $str = explode('/', $url); ?>
 							<img src="/images/common/header_logo.svg" alt="">
 						</a>
 					</div>
-					<video autoplay muted loop playsinline preload="auto" class="main_video" src="/images/top/main_video.mp4">
-						<video autoplay muted loop playsinline preload="auto" class="main_video sp" src="/images/top/main_video.mp4"></video>
-						<video autoplay muted loop playsinline preload="auto" class="main_video" src="/images/top/main_video.mp4"></video>
-						<video autoplay muted loop playsinline preload="auto" class="main_video sp" src="/images/top/main_video.mp4"></video>
+					<video autoplay muted loop playsinline preload="none" class="main_video" src="/images/top/main_video.mp4" poster="/images/top/main.jpg">
+						<source src="/images/top/main_video.mp4" type="video/mp4">
+						<source src="/images/top/main_video.mov" type="video/mov">
 					</video>
 					<div class="container">
 						<picture>
