@@ -245,7 +245,8 @@ header .header_inner .h_right ul li a::after {
 }
 
 header .header_inner .h_right ul li:hover .sub_menu {
-  display: flex;
+  opacity: 1;
+  visibility: visible;
 }
 
 header .header_inner .h_right ul li .sub_menu {
@@ -256,7 +257,9 @@ header .header_inner .h_right ul li .sub_menu {
   left: -80px;
   margin: 0 auto;
   background-color: #fff;
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
   min-width: 215px;
@@ -942,6 +945,9 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_1 .wrapper {
+  background-image: url(/images/top/main.jpg);
+  background-size: cover;
+  background-position: 0;
   position: relative;
   height: 100%;
 }
@@ -954,14 +960,14 @@ img[src$=".png"], img[src$=".jpg"] {
   width: 185px;
 }
 
-#Top main .sect_1 .wrapper #main_video {
+#Top main .sect_1 .wrapper .main_video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 105%;
   min-width: 100%;
-  min-height: 100%;
+  min-height: 105%;
   object-fit: cover;
   filter: brightness(1.2);
 }
@@ -1279,6 +1285,8 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li a span {
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
   font-size: 26px;
   color: #fff;
   padding-left: 10px;
@@ -2715,11 +2723,10 @@ main#Contact .zip-wrap input {
 
 main#Contact input[type="button"] {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   letter-spacing: 0.03em;
-  font-weight: 500;
   color: #252525;
   max-width: 140px;
   width: 100%;
@@ -2745,7 +2752,6 @@ main#Contact input[type="button"]:hover {
 main#Contact input[type="checkbox"] + label {
   padding-left: 29px;
   position: relative;
-  margin-right: 29px;
   cursor: pointer;
 }
 
@@ -2786,6 +2792,20 @@ main#Contact input[type="checkbox"]:checked + label {
   color: #252525;
 }
 
+@media (max-width: 899px) {
+  main#Contact input[type="checkbox"]:checked + label {
+    font-family: YakuHanJP_Noto, "Noto Sans JP";
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  main#Contact input[type="checkbox"]:checked + label {
+    font-size: 4vw;
+  }
+}
+
 main#Contact input[type="checkbox"]:checked + label::after {
   opacity: 1;
 }
@@ -2793,8 +2813,8 @@ main#Contact input[type="checkbox"]:checked + label::after {
 main#Contact input[type="radio"] + label {
   padding-left: 27px;
   position: relative;
-  margin-right: 27px;
   cursor: pointer;
+  display: inline-block;
 }
 
 main#Contact input[type="radio"] + label::before {
@@ -2927,6 +2947,7 @@ main#Contact .overscroll h3 {
 @media (max-width: 899px) {
   main#Contact .overscroll h3 {
     font-size: 16px;
+    font-weight: 400;
   }
 }
 
@@ -2942,6 +2963,7 @@ main#Contact .overscroll p {
 @media (max-width: 899px) {
   main#Contact .overscroll p {
     font-size: 12px !important;
+    font-weight: 400;
   }
 }
 
@@ -2969,6 +2991,7 @@ main#Contact .overscroll ul > li strong {
 @media (max-width: 899px) {
   main#Contact .overscroll ul > li strong {
     font-size: 12px !important;
+    font-weight: 400;
   }
 }
 
@@ -2984,6 +3007,7 @@ main#Contact .overscroll ul > li p {
 @media (max-width: 899px) {
   main#Contact .overscroll ul > li p {
     font-size: 12px !important;
+    font-weight: 400;
   }
 }
 
@@ -3044,6 +3068,7 @@ main#Contact .submit_area span input[type="submit"] {
 @media (max-width: 899px) {
   main#Contact .submit_area span input[type="submit"] {
     height: 55px;
+    font-weight: 400;
   }
 }
 
@@ -3105,6 +3130,12 @@ main#Contact .submit_area ul.koumoku li input[type="submit"] {
   width: 100%;
   height: 58px;
   box-sizing: border-box;
+}
+
+@media (max-width: 899px) {
+  main#Contact .submit_area ul.koumoku li input[type="submit"] {
+    font-weight: 400;
+  }
 }
 
 main#Contact .submit_area ul.koumoku li:hover {
@@ -3174,6 +3205,12 @@ main#Contact .contact_back a {
   transition: all 0.3s ease;
   height: 58px;
   padding: 15px 15px 14px;
+}
+
+@media (max-width: 899px) {
+  main#Contact .contact_back a {
+    font-weight: 400;
+  }
 }
 
 main#Contact .contact_back a:hover {
@@ -3293,6 +3330,7 @@ main#Contact .check-list {
 
 main#Contact .check-list li {
   display: inline-block;
+  margin-right: 27px;
 }
 
 main#Contact .bday_cont {

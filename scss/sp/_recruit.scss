@@ -10,7 +10,7 @@
       padding-bottom: 75px;
       .container{
         .desc{
-          @include Noto_Sans(500);
+          @include Noto_Sans(400);
           font-size: 16px;
           color: #252525;
           line-height: 24px;
@@ -52,7 +52,7 @@
                     &:last-child{
                       width: 100;
                       p{
-                        @include Noto_Sans(500);
+                        @include Noto_Sans(400);
                         font-size: 16px;
                         color: #252525;
                         line-height: 20.5px;

@@ -37,9 +37,10 @@ $str = explode('/', $url); ?>
 							<img src="/images/common/header_logo.svg" alt="">
 						</a>
 					</div>
-					<video playsinline  autoplay muted loop id="main_video">
-						<source src="/images/top/main_video.mp4" type="video/mp4">
-						Your browser does not support HTML5 video.
+					<video autoplay muted loop playsinline preload="auto" class="main_video" src="/images/top/main_video.mp4">
+						<video autoplay muted loop playsinline preload="auto" class="main_video sp" src="/images/top/main_video.mp4"></video>
+						<video autoplay muted loop playsinline preload="auto" class="main_video" src="/images/top/main_video.mp4"></video>
+						<video autoplay muted loop playsinline preload="auto" class="main_video sp" src="/images/top/main_video.mp4"></video>
 					</video>
 					<div class="container">
 						<picture>
@@ -48,7 +49,7 @@ $str = explode('/', $url); ?>
 							<source srcset="/images/top/main_txt.png" media="(min-width: 900px)">
 							<img src="/images/top/sp/main_txt.png" alt="地域一番のかかりつけ薬局 | 地域に密着した“かかりつけ薬局”として 健康を考え健やかな生活をサポートします">
 						</picture>
-						<a href="">
+						<a>
 							Scroll
 							<span></span>
 						</a>
@@ -194,7 +195,6 @@ $str = explode('/', $url); ?>
 				var sect2 = $('.sect_2').offset().top;
 				var head_new_pos = header - t;
 				var sect2_pos = sect2 - t;
-				console.log(sect2_pos)
 				if(head_new_pos <= 0){
 					$('.top_head').css({
 						"position": "fixed",

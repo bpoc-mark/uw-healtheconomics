@@ -37,8 +37,8 @@ main#Contact {
       @include Noto_Sans(400);
       font-size: 16px;
       color: #252525;
-      @media only screen and (max-width: 340px) {
-        font-size: 4.6vw;
+      @media only screen and (max-width: 400px) {
+        font-size: 4vw;
       }
     }
   }
@@ -46,7 +46,7 @@ main#Contact {
   .need {
     color: #fff;
     background-color: #e33500;
-    @include Noto_Sans(500);
+    @include Noto_Sans(300);
     font-size: 11px;
     padding: 0 5px 2px;
     margin-left: 10px;
@@ -57,7 +57,7 @@ main#Contact {
   .optional {
     color: #fff;
     background-color: #a3a3a3;
-    @include Noto_Sans(500);
+    @include Noto_Sans(300);
     font-size: 11px;
     padding: 0 5px 2px;
     margin-left: 10px;
@@ -104,10 +104,9 @@ main#Contact {
       }
 
       th {
-        @include Noto_Sans(500);
+        @include Noto_Sans(400);
         font-size: 16px;
         color: #252525;
-        font-weight: 500;
         display: block;
         text-align: left;
         margin-bottom: 7px;
@@ -140,13 +139,8 @@ main#Contact {
 
     &.type {
       > li {
-        display: inline-block;
-        // margin-bottom: 13px;
-
-        @media only screen and (max-width: 450px) {
-          display: block;
-          margin-bottom: 13px;
-        }
+        display: block;
+        margin-bottom: 13px;
 
         &:last-child {
           margin-bottom: 0;
@@ -192,7 +186,7 @@ main#Contact {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        @include Noto_Sans(500);
+        @include Noto_Sans(400);
         font-size: 16px;
         color: #252525;
         input{
@@ -216,7 +210,7 @@ main#Contact {
 
   .form_wrap {
     > p {
-      @include Noto_Sans(500);
+      @include Noto_Sans(400);
       font-size: 16px;
       color: #252525;
       margin-top: 54px;
@@ -251,7 +245,7 @@ main#Contact {
   padding-top: 60px;
   p{
     text-align: left;
-    @include Noto_Sans(500);
+    @include Noto_Sans(400);
     font-size: 16px;
     color: #252525;
   }

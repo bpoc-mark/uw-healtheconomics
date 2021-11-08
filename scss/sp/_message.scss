@@ -7,13 +7,20 @@
   .sect_1{
     .wrapper{
       padding-top: 60px;
-      padding-bottom: 100px;
+      // padding-bottom: 367.5px;
+      // background-image: url(../images/message/sp/bg_img.jpg);
+      // background-size: 100%;
+      // background-position: center bottom;
+      // background-repeat: no-repeat;
       .container{
+        padding-left: 0;
+        padding-right: 0;
         .row{
           .col{
             &:first-child{
               order: 2;
               width: 100%;
+              margin-top: -285.5px;
               .img_cont{
                 &.row{
                   justify-content: space-between;
@@ -48,6 +55,8 @@
             &:last-child{
               order: 1;
               width: 100%;
+              padding-left: 15px;
+              padding-right: 15px;
               .p_content{
                 p{
                   @include Noto_Sans(400);
@@ -61,7 +70,7 @@
               }
               h4{
                 margin-top: 45px;
-                margin-bottom: 75px;
+                // margin-bottom: 75px;
                 display: flex;
                 justify-content: flex-end;
                 align-items: flex-end;

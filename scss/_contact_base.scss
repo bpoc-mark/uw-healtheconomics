@@ -98,11 +98,10 @@ main#Contact {
   }
 
   input[type="button"] {
-    @include Noto_Sans(500);
+    @include Noto_Sans(400);
     font-size: 16px;
     color: #252525;
     letter-spacing: 0.03em;
-    font-weight: 500;
     color: $text-color;
     max-width: 140px;
     width: 100%;
@@ -126,7 +125,7 @@ main#Contact {
     & + label {
       padding-left: 29px;
       position: relative;
-      margin-right: 29px;
+      // margin-right: 29px;
       cursor: pointer;
 
       &::before {
@@ -164,6 +163,16 @@ main#Contact {
       @include Noto_Sans(500);
       font-size: 16px;
       color: #252525;
+
+      @include sp{
+        @include Noto_Sans(400);
+        font-size: 16px;
+      }
+
+      @media only screen and (max-width: 400px) {
+        font-size: 4vw;
+      }
+
       &::after {
         opacity: 1;
       }
@@ -174,8 +183,9 @@ main#Contact {
     & + label {
       padding-left: 27px;
       position: relative;
-      margin-right: 27px;
+      // margin-right: 27px;
       cursor: pointer;
+      display: inline-block;
 
       &::before {
         content: "";
@@ -299,6 +309,7 @@ main#Contact {
       margin-bottom: 20px;
       @include sp{
         font-size: 16px;
+        font-weight: 400;
       }
     }
 
@@ -311,6 +322,7 @@ main#Contact {
 
       @include sp{
         font-size: 12px !important;
+        font-weight: 400;
       }
     }
 
@@ -331,6 +343,7 @@ main#Contact {
           color: $text-color;
           @include sp{
             font-size: 12px !important;
+            font-weight: 400;
           }
         }
 
@@ -342,6 +355,7 @@ main#Contact {
           line-height: 21px;
           @include sp{
             font-size: 12px !important;
+            font-weight: 400;
           }
         }
 
@@ -405,6 +419,7 @@ main#Contact {
 
         @include sp{
           height: 55px;
+          font-weight: 400;
         }
       }
 
@@ -464,6 +479,10 @@ main#Contact {
           width: 100%;
           height: 58px;
           box-sizing: border-box;
+
+          @include sp{
+            font-weight: 400;
+          }
         }
 
         &:hover {
@@ -536,7 +555,9 @@ main#Contact {
       transition: all 0.3s ease;
       height: 58px;
       padding: 15px 15px 14px;
-
+      @include sp{
+        font-weight: 400;
+      }
       &:hover {
         color: $text-color;
         background: none;

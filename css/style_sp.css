@@ -67,6 +67,9 @@ header {
   background: #fff;
   width: 100%;
   height: 55px;
+  box-shadow: 0px -8px 13px 0px rgba(8, 5, 6, 0.11);
+  -webkit-box-shadow: 0px -8px 13px 0px rgba(8, 5, 6, 0.11);
+  -moz-box-shadow: 0px -8px 13px 0px rgba(8, 5, 6, 0.11);
 }
 
 header .header_inner {
@@ -848,20 +851,23 @@ img[src$=".png"], img[src$=".jpg"] {
   Top
 ==================================*/
 #Top main .sect_1 .wrapper {
+  background-image: url(/images/top/main.jpg);
+  background-size: cover;
+  background-position: 0;
   height: 100vh;
   margin-top: 55px;
   position: relative;
   background-color: #000;
 }
 
-#Top main .sect_1 .wrapper #main_video {
+#Top main .sect_1 .wrapper .main_video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 105%;
   min-width: 100%;
-  min-height: 100%;
+  min-height: 105%;
   object-fit: cover;
   filter: brightness(1.2);
 }
@@ -1029,7 +1035,7 @@ img[src$=".png"], img[src$=".jpg"] {
   position: relative;
   box-sizing: border-box;
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
 }
@@ -1206,7 +1212,7 @@ img[src$=".png"], img[src$=".jpg"] {
   position: relative;
   box-sizing: border-box;
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
 }
@@ -1229,12 +1235,17 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Message main .sect_1 .wrapper {
   padding-top: 60px;
-  padding-bottom: 100px;
+}
+
+#Message main .sect_1 .wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #Message main .sect_1 .wrapper .container .row .col:first-child {
   order: 2;
   width: 100%;
+  margin-top: -285.5px;
 }
 
 #Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row {
@@ -1269,6 +1280,8 @@ img[src$=".png"], img[src$=".jpg"] {
 #Message main .sect_1 .wrapper .container .row .col:last-child {
   order: 1;
   width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #Message main .sect_1 .wrapper .container .row .col:last-child .p_content p {
@@ -1285,7 +1298,6 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Message main .sect_1 .wrapper .container .row .col:last-child h4 {
   margin-top: 45px;
-  margin-bottom: 75px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -1320,7 +1332,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Recruit main .sect_1 .wrapper .container .desc {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   line-height: 24px;
@@ -1375,7 +1387,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Recruit main .sect_1 .wrapper .row .col:first-child .list li .row .col:last-child p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   line-height: 20.5px;
@@ -1627,7 +1639,7 @@ img[src$=".png"], img[src$=".jpg"] {
 #Store main .sect_1 .wrapper .container .store_cont .row .col .accordion .accordion_body .store_info .row .col:last-child p .tel {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   color: #252525;
 }
 
@@ -1647,7 +1659,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Store main .sect_1 .wrapper .container .store_cont .row .col .accordion .accordion_body .store_info .row .col:last-child p.time span {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 12px;
   color: #252525;
   text-align: center;
@@ -1754,7 +1766,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #About main .sect_1 .wrapper .container .row .col:first-child .txt_cont p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   line-height: 24px;
@@ -1812,7 +1824,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #About main .sect_2 .wrapper .container .list .row .col p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   line-height: 24px;
@@ -1926,7 +1938,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Interview main .sect_2 .wrapper .container .txt_cont .list p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   line-height: 24px;
@@ -1970,7 +1982,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Interview main .sect_2 .wrapper .container .row .col:last-child p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   line-height: 24px;
@@ -2099,7 +2111,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Overview main .sect_1 .wrapper .list li .row .col:last-child p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   line-height: 20.5px;
@@ -2390,11 +2402,10 @@ main#Contact .zip-wrap input {
 
 main#Contact input[type="button"] {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   letter-spacing: 0.03em;
-  font-weight: 500;
   color: #252525;
   max-width: 140px;
   width: 100%;
@@ -2420,7 +2431,6 @@ main#Contact input[type="button"]:hover {
 main#Contact input[type="checkbox"] + label {
   padding-left: 29px;
   position: relative;
-  margin-right: 29px;
   cursor: pointer;
 }
 
@@ -2461,6 +2471,20 @@ main#Contact input[type="checkbox"]:checked + label {
   color: #252525;
 }
 
+@media (max-width: 899px) {
+  main#Contact input[type="checkbox"]:checked + label {
+    font-family: YakuHanJP_Noto, "Noto Sans JP";
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  main#Contact input[type="checkbox"]:checked + label {
+    font-size: 4vw;
+  }
+}
+
 main#Contact input[type="checkbox"]:checked + label::after {
   opacity: 1;
 }
@@ -2468,8 +2492,8 @@ main#Contact input[type="checkbox"]:checked + label::after {
 main#Contact input[type="radio"] + label {
   padding-left: 27px;
   position: relative;
-  margin-right: 27px;
   cursor: pointer;
+  display: inline-block;
 }
 
 main#Contact input[type="radio"] + label::before {
@@ -2602,6 +2626,7 @@ main#Contact .overscroll h3 {
 @media (max-width: 899px) {
   main#Contact .overscroll h3 {
     font-size: 16px;
+    font-weight: 400;
   }
 }
 
@@ -2617,6 +2642,7 @@ main#Contact .overscroll p {
 @media (max-width: 899px) {
   main#Contact .overscroll p {
     font-size: 12px !important;
+    font-weight: 400;
   }
 }
 
@@ -2644,6 +2670,7 @@ main#Contact .overscroll ul > li strong {
 @media (max-width: 899px) {
   main#Contact .overscroll ul > li strong {
     font-size: 12px !important;
+    font-weight: 400;
   }
 }
 
@@ -2659,6 +2686,7 @@ main#Contact .overscroll ul > li p {
 @media (max-width: 899px) {
   main#Contact .overscroll ul > li p {
     font-size: 12px !important;
+    font-weight: 400;
   }
 }
 
@@ -2719,6 +2747,7 @@ main#Contact .submit_area span input[type="submit"] {
 @media (max-width: 899px) {
   main#Contact .submit_area span input[type="submit"] {
     height: 55px;
+    font-weight: 400;
   }
 }
 
@@ -2780,6 +2809,12 @@ main#Contact .submit_area ul.koumoku li input[type="submit"] {
   width: 100%;
   height: 58px;
   box-sizing: border-box;
+}
+
+@media (max-width: 899px) {
+  main#Contact .submit_area ul.koumoku li input[type="submit"] {
+    font-weight: 400;
+  }
 }
 
 main#Contact .submit_area ul.koumoku li:hover {
@@ -2851,6 +2886,12 @@ main#Contact .contact_back a {
   padding: 15px 15px 14px;
 }
 
+@media (max-width: 899px) {
+  main#Contact .contact_back a {
+    font-weight: 400;
+  }
+}
+
 main#Contact .contact_back a:hover {
   color: #252525;
   background: none;
@@ -2892,9 +2933,9 @@ main#Contact .agree_area label {
   color: #252525;
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 400px) {
   main#Contact .agree_area label {
-    font-size: 4.6vw;
+    font-size: 4vw;
   }
 }
 
@@ -2902,7 +2943,7 @@ main#Contact .need {
   color: #fff;
   background-color: #e33500;
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 300;
   font-size: 11px;
   padding: 0 5px 2px;
   margin-left: 10px;
@@ -2914,7 +2955,7 @@ main#Contact .optional {
   color: #fff;
   background-color: #a3a3a3;
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 300;
   font-size: 11px;
   padding: 0 5px 2px;
   margin-left: 10px;
@@ -2965,10 +3006,9 @@ main#Contact table tr.address td .ad_btn {
 
 main#Contact table tr th {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
-  font-weight: 500;
   display: block;
   text-align: left;
   margin-bottom: 7px;
@@ -2999,14 +3039,8 @@ main#Contact .check-list li {
 }
 
 main#Contact .check-list.type > li {
-  display: inline-block;
-}
-
-@media only screen and (max-width: 450px) {
-  main#Contact .check-list.type > li {
-    display: block;
-    margin-bottom: 13px;
-  }
+  display: block;
+  margin-bottom: 13px;
 }
 
 main#Contact .check-list.type > li:last-child {
@@ -3056,7 +3090,7 @@ main#Contact .bday_cont li label {
   justify-content: flex-start;
   align-items: center;
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
 }
@@ -3081,7 +3115,7 @@ main#Contact .bday_cont li label input.bday_day {
 
 main#Contact .form_wrap > p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
   margin-top: 54px;
@@ -3112,7 +3146,7 @@ main#Contact .submit_area span img {
 .send_comp p {
   text-align: left;
   font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #252525;
 }
