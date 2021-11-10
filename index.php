@@ -119,7 +119,7 @@ $str = explode('/', $url); ?>
 										<img data-aos="fade-down" data-aos-easing="linear" data-aos-delay="500" src="/images/top/section_3/img_4.jpg" alt="">
 									</div>
 								</div> -->
-								<img data-aos="fade-up" data-aos-easing="linear" data-aos-delay="500" src="/images/top/section_3/img_4.jpg" alt="">
+								<img data-aos="fade-up" data-aos-easing="linear" data-aos-delay="500" src="/images/top/section_3/img_4-1.jpg" alt="">
 							</div>
 							<div class="col">
 								<div class="txt_cont">
@@ -134,7 +134,7 @@ $str = explode('/', $url); ?>
 												<img src="/images/top/section_3/sp/img_3.jpg" data-aos="fade-up" data-aos-delay="300" alt="" class="p-r-40">
 											</div>
 											<div class="item"> -->
-												<img src="/images/top/section_3/sp/img_4.jpg" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="300" alt="">
+												<img src="/images/top/section_3/sp/img_4-1.jpg" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="300" alt="">
 											<!-- </div> -->
 										</div>
 									</div>
