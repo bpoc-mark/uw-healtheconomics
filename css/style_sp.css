@@ -1242,23 +1242,23 @@ img[src$=".png"], img[src$=".jpg"] {
   padding-right: 0;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:first-child {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(1) {
   order: 2;
   width: 100%;
   margin-top: -285.5px;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(1) .img_cont.row {
   justify-content: space-between;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col:first-child {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(1) .img_cont.row .col:first-child {
   margin-bottom: 10px;
   width: 57.39%;
   order: 1;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col:last-child {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(1) .img_cont.row .col:last-child {
   width: 41.5%;
   padding-top: 40px;
   order: 2;
@@ -1268,23 +1268,23 @@ img[src$=".png"], img[src$=".jpg"] {
   justify-content: space-between;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col:last-child img:first-child {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(1) .img_cont.row .col:last-child img:first-child {
   width: 100%;
   margin-bottom: 5px;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col:last-child img:last-child {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(1) .img_cont.row .col:last-child img:last-child {
   width: 80%;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:last-child {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(2) {
   order: 1;
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:last-child .p_content p {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(2) .p_content p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 400;
   font-size: 16px;
@@ -1292,11 +1292,11 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 24px;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:last-child .p_content p:not(:last-child) {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(2) .p_content p:not(:last-child) {
   margin-bottom: 20px;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:last-child h4 {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(2) h4 {
   margin-top: 45px;
   display: flex;
   justify-content: flex-end;
@@ -1308,7 +1308,7 @@ img[src$=".png"], img[src$=".jpg"] {
   letter-spacing: .15em;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:last-child h4 img {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(2) h4 img {
   width: 130px;
   margin-left: 15px;
   position: relative;
@@ -1328,20 +1328,10 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Recruit main .sect_1 .wrapper {
   padding-bottom: 75px;
-}
-
-#Recruit main .sect_1 .wrapper .container .desc {
-  font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 400;
-  font-size: 16px;
-  color: #252525;
-  line-height: 24px;
-  text-align: left;
   padding-top: 55px;
-  padding-bottom: 60px;
 }
 
-#Recruit main .sect_1 .wrapper .container:last-child {
+#Recruit main .sect_1 .wrapper .container {
   padding-left: 0;
   padding-right: 0;
 }
@@ -1396,6 +1386,33 @@ img[src$=".png"], img[src$=".jpg"] {
 #Recruit main .sect_1 .wrapper .row .col:last-child {
   width: 100%;
   padding-left: 50px;
+}
+
+#Recruit main .sect_1 .wrapper a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 75px 15px 0;
+  height: 52px;
+  background-color: #2fc0c5;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+}
+
+#Recruit main .sect_1 .wrapper a:hover img {
+  right: 10px;
+}
+
+#Recruit main .sect_1 .wrapper a img {
+  width: 22px;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+  transition: .3s ease-in-out;
 }
 
 #Recruit main .sect_2 .wrapper {
@@ -2075,8 +2092,17 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Overview main .sect_1 .wrapper {
-  padding-bottom: 55px;
   padding-top: 50px;
+}
+
+#Overview main .sect_1 .wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#Overview main .sect_1 .wrapper .list {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #Overview main .sect_1 .wrapper .list li:not(:last-child) {
@@ -2117,6 +2143,10 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 20.5px;
 }
 
+#Overview main .sect_1 .wrapper img {
+  margin-top: -60px;
+}
+
 #Overview main .sect_2 .wrapper {
   background-color: #f6fafb;
   padding-top: 75px;
@@ -2155,7 +2185,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-bottom: 30px;
 }
 
-#Overview main .sect_2 .wrapper .container .history ul li:nth-child(3) .row .col:last-child p span, #Overview main .sect_2 .wrapper .container .history ul li:nth-child(10) .row .col:last-child p span {
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(9) .row .col:last-child p span {
   margin-left: 23px;
 }
 
@@ -2214,7 +2244,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Overview main .sect_2 .wrapper .container .history img {
   width: 16.5px;
-  height: 840px;
+  height: 900px;
 }
 
 /*==================================

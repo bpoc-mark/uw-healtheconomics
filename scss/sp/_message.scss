@@ -17,7 +17,7 @@
         padding-right: 0;
         .row{
           .col{
-            &:first-child{
+            &:nth-child(1){
               order: 2;
               width: 100%;
               margin-top: -285.5px;
@@ -52,7 +52,7 @@
                 }
               }
             }
-            &:last-child{
+            &:nth-child(2){
               order: 1;
               width: 100%;
               padding-left: 15px;

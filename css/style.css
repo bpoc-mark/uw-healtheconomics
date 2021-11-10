@@ -1125,7 +1125,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_2 .wrapper .container .row .col:first-child .txt_cont ul li {
-  width: 48.81%;
+  width: 100%;
   border: 1px solid #cbcbcb;
   margin-bottom: 9px;
   position: relative;
@@ -1361,52 +1361,56 @@ img[src$=".png"], img[src$=".jpg"] {
   padding-bottom: 180px;
 }
 
-#Message main .sect_1 .wrapper .container .row {
-  background-image: url(../images/message/bg_img.jpg);
-  background-size: 73%;
-  background-position: left center;
-  background-repeat: no-repeat;
+#Message main .sect_1 .wrapper .container {
+  position: relative;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:first-child {
-  width: 48%;
+#Message main .sect_1 .wrapper .container .row .col:nth-child(1) {
+  width: 45%;
   padding-right: 70px;
   padding-left: 50px;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(1) .img_cont.row .col {
   width: 100%;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col:first-child {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(1) .img_cont.row .col:first-child {
   padding-right: 50px;
   padding-left: 0;
   margin-bottom: 10px;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col:last-child {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(1) .img_cont.row .col:last-child {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col:last-child img:first-child {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(1) .img_cont.row .col:last-child img:first-child {
   width: 60%;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:first-child .img_cont.row .col:last-child img:last-child {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(1) .img_cont.row .col:last-child img:last-child {
   width: 38%;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:last-child {
-  width: 52%;
+#Message main .sect_1 .wrapper .container .row .col:nth-child(2) {
+  width: 55%;
+  padding-left: 50px;
+  position: relative;
+  z-index: 10;
+  background: white;
+  background: linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0.883) 84%, rgba(255, 255, 255, 0) 100%);
 }
 
-#Message main .sect_1 .wrapper .container .row .col:last-child .p_content {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(2) .p_content {
   padding-top: 40px;
+  position: relative;
+  z-index: 2;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:last-child .p_content p {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(2) .p_content p {
   font-family: YakuHanJP_Noto, "Noto Sans JP";
   font-weight: 500;
   font-size: 16px;
@@ -1414,11 +1418,13 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 40px;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:last-child .p_content p:not(:last-child) {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(2) .p_content p:not(:last-child) {
   margin-bottom: 35px;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:last-child h4 {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(2) h4 {
+  position: relative;
+  z-index: 2;
   margin-top: 90px;
   display: flex;
   justify-content: flex-end;
@@ -1428,13 +1434,34 @@ img[src$=".png"], img[src$=".jpg"] {
   font-size: 14px;
   color: #000000;
   letter-spacing: .15em;
+  padding-bottom: 20px;
 }
 
-#Message main .sect_1 .wrapper .container .row .col:last-child h4 img {
+#Message main .sect_1 .wrapper .container .row .col:nth-child(2) h4 img {
   width: 156px;
   margin-left: 15px;
   position: relative;
   top: 3px;
+  left: unset;
+}
+
+#Message main .sect_1 .wrapper .container .row .bg_img {
+  width: 892px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+  #Message main .sect_1 .wrapper .container .row .bg_img {
+    width: 90%;
+  }
+}
+
+#Message main .sect_1 .wrapper .container .row .bg_img img {
+  width: 100%;
+  height: 100%;
 }
 
 /*==================================
@@ -1450,23 +1477,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Recruit main .sect_1 .wrapper {
   padding-bottom: 120px;
-}
-
-#Recruit main .sect_1 .wrapper .container .desc {
-  font-family: YakuHanJP_Noto, "Noto Sans JP";
-  font-weight: 500;
-  font-size: 16px;
-  color: #252525;
-  line-height: 36.8px;
-  text-align: center;
-  padding-top: 90px;
-  padding-bottom: 110px;
-}
-
-#Recruit main .sect_1 .wrapper .container:last-child {
-  max-width: 1400px;
-  padding-left: 0;
-  padding-right: 0;
+  padding-top: 100px;
 }
 
 #Recruit main .sect_1 .wrapper .row .col:first-child {
@@ -1519,6 +1530,34 @@ img[src$=".png"], img[src$=".jpg"] {
   width: 38.93%;
 }
 
+#Recruit main .sect_1 .wrapper a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 480px;
+  margin: 80px auto 0;
+  height: 74px;
+  background-color: #2fc0c5;
+  font-family: YakuHanJP_Noto, "Noto Sans JP";
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+}
+
+#Recruit main .sect_1 .wrapper a:hover img {
+  right: 15px;
+}
+
+#Recruit main .sect_1 .wrapper a img {
+  width: 28px;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translate(0, -50%);
+  transition: .3s ease-in-out;
+}
+
 #Recruit main .sect_2 .wrapper {
   background-color: #f6fafb;
   padding-bottom: 185px;
@@ -1557,7 +1596,7 @@ img[src$=".png"], img[src$=".jpg"] {
   }
 }
 
-@media only screen and (max-width: 1126px) {
+@media only screen and (max-width: 1124px) {
   #Recruit main .sect_2 .wrapper .container .row .col:not(:last-child) p {
     margin-bottom: 42px;
   }
@@ -1567,6 +1606,10 @@ img[src$=".png"], img[src$=".jpg"] {
   #Recruit main .sect_2 .wrapper .container .row .col:not(:last-child) p {
     margin-bottom: 11px;
   }
+}
+
+#Recruit main .sect_2 .wrapper .container .row .col:last-child p {
+  letter-spacing: -.3px;
 }
 
 #Recruit main .sect_2 .wrapper .container .row .col p {
@@ -2232,7 +2275,7 @@ img[src$=".png"], img[src$=".jpg"] {
   }
 }
 
-@media only screen and (max-width: 1126px) {
+@media only screen and (max-width: 1124px) {
   #Interview main .sect_3 .wrapper .container .row .col:not(:last-child) p {
     margin-bottom: 42px;
   }
@@ -2242,6 +2285,10 @@ img[src$=".png"], img[src$=".jpg"] {
   #Interview main .sect_3 .wrapper .container .row .col:not(:last-child) p {
     margin-bottom: 11px;
   }
+}
+
+#Interview main .sect_3 .wrapper .container .row .col:last-child p {
+  letter-spacing: -.3px;
 }
 
 #Interview main .sect_3 .wrapper .container .row .col p {
@@ -2315,7 +2362,6 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Overview main .sect_1 .wrapper {
-  padding-bottom: 102px;
   padding-top: 90px;
 }
 
@@ -2357,6 +2403,10 @@ img[src$=".png"], img[src$=".jpg"] {
   font-size: 16px;
   color: #252525;
   line-height: 20.8px;
+}
+
+#Overview main .sect_1 .wrapper img {
+  margin-top: -150px;
 }
 
 #Overview main .sect_2 .wrapper {
@@ -2518,7 +2568,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin-left: 18px;
 }
 
-#Overview main .sect_2 .wrapper .container .history ul li:nth-child(5) .row .col:last-child p span {
+#Overview main .sect_2 .wrapper .container .history ul li:nth-child(5) .row .col:last-child p span, #Overview main .sect_2 .wrapper .container .history ul li:nth-child(11) .row .col:last-child p span {
   margin-left: 18px;
 }
 

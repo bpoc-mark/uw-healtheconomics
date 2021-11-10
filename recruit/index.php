@@ -53,7 +53,7 @@
       </section>
       <section class="sect_1">
         <div class="wrapper">
-          <div class="container">
+          <!-- <div class="container">
             <p class="desc c-anim-up">
               医療ニーズの高度化、多様化が急速に進む今日、薬剤師は今まで以上に大きな役割と責任が求められます。<br>
               又、国民医療・公衆衛生に貢献し、医療の担い手としての自覚を持ち、地域社会、医療関係者の信頼に応えなければなりません。<br>
@@ -61,7 +61,7 @@
               ハロー薬局では今まで培ってきたノウハウを元に、充実した研修制度を導入し、未来ある薬剤師を強力にバックアップし、<br>
               信頼される薬剤師の育成を目指しています。
             </p>
-          </div>
+          </div> -->
           <div class="container">
             <div class="row">
               <div class="col">
@@ -82,7 +82,7 @@
                         <p>人数</p>
                       </div>
                       <div class="col">
-                        <p>5名</p>
+                        <p>3名</p>
                       </div>
                     </div>
                   </li>
@@ -192,6 +192,7 @@
                 <img src="/images/recruit/img_1.jpg" alt="" data-aos="fade-left">
               </div>
             </div>
+            <a href="">採用エントリーはこちら<img src="/images/top/section_3/arrow_img.png" alt=""></a>
           </div>
         </div>
       </section>
@@ -219,14 +220,14 @@
                 <a href="/interview02/">
                   <p>
                     <span>薬剤師</span>
-                    加藤 茉莉恵
+                    加藤 茉梨恵
                   </p>
                   <img src="/images/recruit/arrow_img.png" alt="">
                 </a>
               </div>
               <div class="col c-anim-up">
                 <p>
-                  <span>03.</span>患者様一人一人に寄り添った医療を提供する
+                  <span>03.</span>患者様一人一人に寄り添った薬剤師を目指して
                 </p>
                 <a href="/interview03/">
                   <p>

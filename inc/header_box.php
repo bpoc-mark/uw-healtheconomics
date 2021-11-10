@@ -28,12 +28,12 @@ $str = explode('/', $url); ?>
 					<li>
 						<a href="/interview01/"  <?php if ($str[1] == "interview01") {
 							echo ' class="here"';
-						} ?>><span class="sp">インタビュー</span> 01.曾根庸介</a>
+						} ?>><span class="sp">インタビュー</span> 01.曾根 庸介</a>
 					</li>
 					<li>
 						<a href="/interview02/"  <?php if ($str[1] == "interview02") {
 							echo ' class="here"';
-						} ?>><span class="sp">インタビュー</span> 02.加藤 茉莉恵</a>
+						} ?>><span class="sp">インタビュー</span> 02.加藤 茉梨恵</a>
 					</li>
 					<li>
 						<a href="/interview03/"  <?php if ($str[1] == "interview03") {
@@ -58,9 +58,9 @@ $str = explode('/', $url); ?>
 			<li><a href="/message/" <?php if ($str[1] == "message") {
 				echo ' class="here"';
 			} ?>>メッセージ</a></li>
-			<li><a href="/about/" <?php if ($str[1] == "about") {
+			<!-- <li><a href="/about/" <?php if ($str[1] == "about") {
 				echo ' class="here"';
-			} ?>>ハロー薬局について</a></li>
+			} ?>>ハロー薬局について</a></li> -->
 		</ul>
 	</nav>
 

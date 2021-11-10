@@ -56,7 +56,7 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <img src="/images/message/sp/bg_img.jpg" class="sp" alt="">
+                <img src="/images/message/sp/bg_img.png" class="sp" alt="">
               </div>
               <div class="col">
                 <div class="p_content">
@@ -81,9 +81,12 @@
                   <!-- <source　srcset="/images/top/advan.webp" media="(min-width: 900px)" type="image/webp"> -->
                   <source srcset="/images/message/sp/name.png" media="(max-width: 899px)" type="image/webp">
                   <source srcset="/images/message/name.png" media="(min-width: 900px)">
-                  <img src="/images/message/sp/name.png" alt="地域一番のかかりつけ薬局 | 地域に密着した“かかりつけ薬局”として 健康を考え健やかな生活をサポートします">
+                  <img src="/images/message/sp/name.png" alt="">
                 </picture>
                 </h4>
+              </div>
+              <div class="bg_img pc">
+                <img src="/images/message/bg_img.jpg" alt="">
               </div>
             </div>
           </div>

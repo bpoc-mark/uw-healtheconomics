@@ -168,6 +168,7 @@
                 </div>
               </li>
             </ul>
+            <img src="/images/overview/img_1.png" alt="">
           </div>
         </div>
       </section>
@@ -290,6 +291,19 @@
                       </div>
                       <div class="col">
                         <p>ヘルスエコノミクス研究所 <span>新社屋完成</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="c-anim-up">
+                  <div class="pc"></div>
+                  <div class="info">
+                    <div class="row">
+                      <div class="col">
+                        <p>2012年1月</p>
+                      </div>
+                      <div class="col">
+                        <p>ハロー薬局万野店 <span>開局</span></p>
                       </div>
                     </div>
                   </div>

@@ -7,7 +7,7 @@
   .sect_1{
     overflow: hidden;
     .wrapper{
-      padding-bottom: 102px;
+      // padding-bottom: 102px;
       padding-top: 90px;
       .list{
         max-width: 670px;
@@ -43,6 +43,9 @@
             }
           }
         }
+      }
+      img{
+        margin-top: -150px;
       }
     }
   }
@@ -241,7 +244,7 @@
                   }
                 }
               }
-              &:nth-child(5){
+              &:nth-child(5), &:nth-child(11){
                 .row{
                   .col{
                     &:first-child{

@@ -8,22 +8,23 @@
     overflow: hidden;
     .wrapper{
       padding-bottom: 120px;
-      .container{
-        .desc{
-          @include Noto_Sans(500);
-          font-size: 16px;
-          color: #252525;
-          line-height: 36.8px;
-          text-align: center;
-          padding-top: 90px;
-          padding-bottom: 110px;
-        }
-        &:last-child{
-          max-width: 1400px;
-          padding-left: 0;
-          padding-right: 0;
-        }
-      }
+      padding-top: 100px;
+      // .container{
+      //   .desc{
+      //     @include Noto_Sans(500);
+      //     font-size: 16px;
+      //     color: #252525;
+      //     line-height: 36.8px;
+      //     text-align: center;
+      //     padding-top: 90px;
+      //     padding-bottom: 110px;
+      //   }
+      //   &:last-child{
+      //     max-width: 1400px;
+      //     padding-left: 0;
+      //     padding-right: 0;
+      //   }
+      // }
       .row{
         .col{
           &:first-child{
@@ -71,6 +72,32 @@
           }
         }
       }
+      a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 480px;
+        margin: 80px auto 0;
+        height: 74px;
+        background-color: #2fc0c5;
+        @include Noto_Sans(500);
+        font-size: 18px;
+        color: #fff;
+        position: relative;
+        &:hover{
+          img{
+            right: 15px;
+          }
+        }
+        img{
+          width: 28px;
+          position: absolute;
+          top: 50%;
+          right: 30px;
+          transform: translate(0, -50%);
+          transition: .3s ease-in-out;
+        }
+      }
     }
   }
 
@@ -106,7 +133,7 @@
             }
             &:not(:last-child){
               p{
-                @media only screen and (max-width: 1126px) {
+                @media only screen and (max-width: 1124px) {
                  margin-bottom: 42px;
                 }
                 @media only screen and (max-width: 972px) {
@@ -114,7 +141,11 @@
                  }
               }
             }
-
+            &:last-child{
+              p{
+                letter-spacing: -.3px;
+              }
+            }
             p{
               span{
                 display: block;

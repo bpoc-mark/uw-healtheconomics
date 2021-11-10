@@ -37,9 +37,9 @@ $str = explode('/', $url); ?>
 							<img src="/images/common/header_logo.svg" alt="">
 						</a>
 					</div>
-					<video autoplay muted loop playsinline preload="none" class="main_video" src="/images/top/main_video.mp4" poster="/images/top/main.jpg">
-						<source src="/images/top/main_video.mp4" type="video/mp4">
-						<source src="/images/top/main_video.mov" type="video/mov">
+					<video autoplay muted loop playsinline class="main_video" src="/images/top/main_video.mp4" >
+						<!-- <source src="/images/top/main_video.mp4#t=0.001" type="video/mp4">
+						<source src="/images/top/main_video.mov#t=0.001" type="video/mov"> -->
 					</video>
 					<div class="container">
 						<picture>
@@ -89,12 +89,12 @@ $str = explode('/', $url); ?>
 												<img src="/images/top/section_2/arrow_img.png" alt="">
 											</a>
 										</li>
-										<li class="c-anim-up">
+										<!-- <li class="c-anim-up">
 											<a href="/about/" class="btn_link">
 												ハロー薬局について
 												<img src="/images/top/section_2/arrow_img.png" alt="">
 											</a>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							</div>
@@ -146,12 +146,12 @@ $str = explode('/', $url); ?>
 										</li>
 										<li class="c-anim-up">
 											<p><span>02.</span>豊富な知識と経験を患者さんのために</p>
-											<a href="/interview02/" class="btn_link">薬剤師 <span>加藤 茉莉恵</span>
+											<a href="/interview02/" class="btn_link">薬剤師 <span>加藤 茉梨恵</span>
 												<img src="/images/top/section_3/arrow_img.png" alt="">
 											</a>
 										</li>
 										<li class="c-anim-up">
-											<p><span>03.</span>患者様一人一人に寄り添った医療を提供する</p>
+											<p><span>03.</span>患者様一人一人に寄り添った薬剤師を目指して</p>
 											<a href="/interview03/" class="btn_link">薬剤師 <span>鈴木 康成</span>
 												<img src="/images/top/section_3/arrow_img.png" alt="">
 											</a>
