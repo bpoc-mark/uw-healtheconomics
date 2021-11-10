@@ -1107,9 +1107,9 @@ img[src$=".png"], img[src$=".jpg"] {
 #Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .img_cont {
   margin-top: 50px;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
+  justify-content: flex-start;
   padding-right: 50px;
+  text-align: left;
 }
 
 #Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .img_cont .item:first-child {
@@ -1148,8 +1148,8 @@ img[src$=".png"], img[src$=".jpg"] {
   font-size: 14px;
   color: #252525;
   padding: 0;
-  text-indent: -24px;
-  margin-left: 24px;
+  text-indent: -30px;
+  margin-left: 30px;
 }
 
 #Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li p span {

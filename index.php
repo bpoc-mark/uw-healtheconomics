@@ -110,7 +110,7 @@ $str = explode('/', $url); ?>
 					<div class="container">
 						<div class="row">
 							<div class="col">
-								<div class="img_cont">
+								<!-- <div class="img_cont">
 									<div class="item">
 										<img data-aos="fade-right" data-aos-delay="300" src="/images/top/section_3/img_2.jpg" alt="">
 										<img data-aos="fade-up" data-aos-delay="300" src="/images/top/section_3/img_3.jpg" alt="" class="p-l-60">
@@ -118,7 +118,8 @@ $str = explode('/', $url); ?>
 									<div class="item">
 										<img data-aos="fade-down" data-aos-easing="linear" data-aos-delay="500" src="/images/top/section_3/img_4.jpg" alt="">
 									</div>
-								</div>
+								</div> -->
+								<img data-aos="fade-up" data-aos-easing="linear" data-aos-delay="500" src="/images/top/section_3/img_4.jpg" alt="">
 							</div>
 							<div class="col">
 								<div class="txt_cont">
@@ -128,13 +129,13 @@ $str = explode('/', $url); ?>
 									<p class="c-anim-up">ハロー薬局では今まで培ってきたノウハウを元に、充実した研修制度を導入し、未来ある薬剤師を強力にバックアップし、信頼される薬剤師の育成を目指しています。</p>
 									<div class="sp c-anim-up">
 										<div class="img_cont">
-											<div class="item">
+											<!-- <div class="item">
 												<img src="/images/top/section_3/img_2.jpg"  data-aos="fade-left" data-aos-delay="300" alt="">
 												<img src="/images/top/section_3/sp/img_3.jpg" data-aos="fade-up" data-aos-delay="300" alt="" class="p-r-40">
 											</div>
-											<div class="item">
+											<div class="item"> -->
 												<img src="/images/top/section_3/sp/img_4.jpg" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="300" alt="">
-											</div>
+											<!-- </div> -->
 										</div>
 									</div>
 									<ul class="list">

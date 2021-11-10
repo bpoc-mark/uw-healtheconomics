@@ -1182,7 +1182,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Top main .sect_3 .wrapper .container .row .col:first-child {
-  padding-right: 55px;
+  padding-right: 30px;
 }
 
 #Top main .sect_3 .wrapper .container .row .col:first-child .img_cont {
@@ -1261,6 +1261,8 @@ img[src$=".png"], img[src$=".jpg"] {
   font-size: 18px;
   color: #252525;
   margin-bottom: 3px;
+  text-indent: -37px;
+  margin-left: 37px;
 }
 
 #Top main .sect_3 .wrapper .container .row .col:last-child .txt_cont .list li p span {

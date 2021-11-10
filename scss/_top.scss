@@ -204,7 +204,7 @@
           .col{
             width: 50%;
             &:first-child{
-              padding-right: 55px;
+              padding-right: 30px;
               .img_cont{
                 display: flex;
                 justify-content: space-between;
@@ -265,6 +265,8 @@
                       font-size: 18px;
                       color: #252525;
                       margin-bottom: 3px;
+                      text-indent: -37px;
+                      margin-left: 37px;
                       span{
                         @include Roboto(700);
                         font-size: 20px;
