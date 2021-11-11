@@ -1,4 +1,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script src="/js/jquery.matchHeight-min.js"></script>
 <script src="/js/polyfill.js"></script>
 <script src="/js/smooth-scroll.polyfills.min.js"></script>
@@ -15,4 +17,10 @@
   });
 
   $('.fot_top nav li').matchHeight();
+</script>
+
+<script>
+  AOS.init({
+    once: true
+  });
 </script>

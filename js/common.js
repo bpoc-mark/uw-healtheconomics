@@ -4,7 +4,7 @@ $(function () {
     var t = $(this).scrollTop();
     if (t > 100) {
       $('#pageTop').addClass('active');
-      $('header').addClass('scroll');
+      // $('header').addClass('scroll');
     } else {
       $('#pageTop').removeClass('active');
       $('header').removeClass('scroll');
@@ -24,6 +24,52 @@ $(function () {
   }
 
 });
+
+// flag to allow clicking
+var clickAllowed = true;
+$(window).on('load resize', function () {
+  var w = $(window).width();
+  if (w < 900) {
+    clickAllowed = true;
+  }
+  else{
+    clickAllowed = false;
+    $('.sub_menu').removeAttr('style');
+    $('.accordion_body').removeAttr('style');
+  }
+})
+
+$('#header_menu').click(function(){
+  $('.menu span').toggleClass('show');
+  $('.h_right').toggleClass('active')
+})
+
+$('#emp_info a').click(function(e){
+  // $(this).preventDefault();
+  if(clickAllowed){
+    if($(this).hasClass('active')){
+      $(this).removeClass('active');
+      $('#emp_info').removeClass('active');
+      $(this).next('.sub_menu').slideUp();
+    }
+    else{
+      $(this).addClass('active');
+      $('#emp_info').addClass('active');
+      $(this).next('.sub_menu').slideDown();
+    }
+  }
+})
+
+$(document).on('click', '.accordion_btn', function(e){
+  e.preventDefault();
+  if($(this).hasClass('active')){
+    $(this).removeClass('active');
+    $(this).parent().next('.accordion_body').slideUp();
+  }else{
+    $(this).addClass('active');
+    $(this).parent().next('.accordion_body').slideDown();
+  }
+})
 
 
 
@@ -94,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Webfont読込
 window.WebFontConfig = {
   google: {
-    families: ['Barlow+Condensed:500','Roboto:400,500,600,700', 'Noto+Sans+JP:300,400,500,700,900&subset=japanese']
+    families: ['Barlow+Condensed:500','Roboto:400,500,600,700,900', 'Noto+Sans+JP:300,400,500,700,900&subset=japanese']
   },
   active: function () {
     sessionStorage.fonts = true;

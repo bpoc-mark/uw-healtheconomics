@@ -27,7 +27,7 @@ $replyBcc = '';
 $replyAddress = 'staff@ultraworks.jp';
 
 // 自動返信時の送信元メールアドレスに付加する名前
-$replyName = '';
+$replyName = '株式会社ヘルスエコノミクス研究所';
 
 // 送信エラー等で戻ってくるメールの受け取りを変更する場合のメールアドレス
 $returnPath = 'staff@ultraworks.jp';

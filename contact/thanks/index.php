@@ -28,10 +28,32 @@
 		</header>
 
 		<main id="Contact" class="sfm3">
+			<section class="jumbo_sect">
+				<div class="wrapper">
+					<div class="container">
+						<p>ENTRY</p>
+						<h3>採用エントリーフォーム</h3>
+					</div>
+				</div>
+			</section>
+			<section class="breadcrumbs pc">
+				<div class="wrapper">
+					<div class="container">
+						<ul>
+						<li>
+							<a href="/">HOME</a>
+						</li>
+						<li>
+							<a href="/contact/">採用エントリーフォーム</a>
+						</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 			<section class="form-sec">
 				<div class="send_comp container">
 					<p>
-						この度は、株式会社●●●●へお問合わせ頂き、<br class="pc">誠にありがとうございました。<br><br>
+						「この度は、株式会社ヘルスエコノミクス研究所へお問合わせ頂き、誠にありがとうございました。」<br class="pc">誠にありがとうございました。<br><br>
 						内容を確認後、ご入力されたメールアドレス宛にお返事致します。<br><br>なお、ご記入頂いたメールアドレス宛てに自動返信メールをお送りしております。<br>自動返信メールが届いていない場合は、メールアドレスが誤っている可能性がございます。<br>その際は大変お手数ですが、再度お問合わせくださいませ。</p>
 					<div class="contact_back">
 						<a href="/">トップへ戻る</a>
