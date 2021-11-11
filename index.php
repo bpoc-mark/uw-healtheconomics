@@ -37,10 +37,9 @@ $str = explode('/', $url); ?>
 							<img src="/images/common/header_logo.svg" alt="">
 						</a>
 					</div>
-					<video autoplay muted loop playsinline class="main_video" src="/images/top/main_video.mp4" >
-						<!-- <source src="/images/top/main_video.mp4#t=0.001" type="video/mp4">
-						<source src="/images/top/main_video.mov#t=0.001" type="video/mov"> -->
-					</video>
+					<p class="main_video">
+						<video src="/images/top/main_video.mp4" loop autoplay muted playsinline ></video>
+					</p>
 					<div class="container">
 						<picture>
 							<!-- <source srcset="/images/top/sp/main_txt.png" media="(max-width: 899px)" type="image/webp"> -->
@@ -190,13 +189,17 @@ $str = explode('/', $url); ?>
 
 	<script>
 		$(function() {
-			$(window).scroll(function() {
+			$(window).on('scroll load',function() {
 				var t = $(this).scrollTop();
 				var w = $(window).width();
 				var header = $('.top_head').offset().top;
 				var sect2 = $('.sect_2').offset().top;
 				var head_new_pos = header - t;
 				var sect2_pos = sect2 - t;
+				console.log(head_new_pos);
+				if(head_new_pos <= 300){
+					$('header').addClass('nav_btm');
+				}
 				if(head_new_pos <= 0){
 					$('.top_head').css({
 						"position": "fixed",
@@ -208,6 +211,9 @@ $str = explode('/', $url); ?>
 				if(sect2_pos >= 100){
 					$('header').removeClass('scroll');
 					$('.top_head').removeAttr('style');
+				}
+				if(head_new_pos >= 300){
+					$('header').removeClass('nav_btm');
 				}
 			});
 		});

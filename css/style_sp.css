@@ -872,6 +872,12 @@ img[src$=".png"], img[src$=".jpg"] {
   filter: brightness(1.2);
 }
 
+#Top main .sect_1 .wrapper .main_video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 #Top main .sect_1 .wrapper .container {
   position: absolute;
   top: 0;

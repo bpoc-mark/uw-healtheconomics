@@ -21,7 +21,7 @@ $str = explode('/', $url); ?>
 			<li><a href="/store/" <?php if ($str[1] == "store") {
 				echo ' class="here"';
 			} ?>>店舗一覧</a></li>
-			<li id="emp_info"><a <?php if ($str[1] == "/") {
+			<li id="emp_info"><a <?php if ($str[1] == "recruit" || $str[1] == "interview01" || $str[1] == "interview02" || $str[1] == "interview03" || $str[1] == "contact") {
 				echo ' class="here"';
 			} ?>>採用情報</a>
 				<ul class="sub_menu">

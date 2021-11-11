@@ -127,6 +127,23 @@ header.scroll .header_inner .h_right ul li .sub_menu::before {
   margin: 0 auto;
 }
 
+header.nav_btm .header_inner .h_right ul li .sub_menu {
+  bottom: -287px;
+}
+
+header.nav_btm .header_inner .h_right ul li .sub_menu::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  top: -10px;
+  bottom: unset;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
 header .header_inner {
   display: flex;
   justify-content: space-between;
@@ -970,6 +987,12 @@ img[src$=".png"], img[src$=".jpg"] {
   min-height: 105%;
   object-fit: cover;
   filter: brightness(1.2);
+}
+
+#Top main .sect_1 .wrapper .main_video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #Top main .sect_1 .wrapper .container {
